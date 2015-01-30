@@ -1,0 +1,68 @@
+/IzhitsaToT2AEncoding [
+%LIGKERN afii10069 afii10070 =: afii10080 afii10070 ;
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%8
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%16
+  /US /cybrthacutU /cybrthgravU /cycflxU /cydblgravU /cyDttlU /cyttlU /cybrthU
+%24
+  /cyacutU /cygravU /cyOttlU /cyCttlU /cyRttlU /cyGttlU /cyerokU /cyUkgmS
+%32
+  /space /exclam /cydblgrav /cyja /dollar /cyWbrth /ampersand /cyacut
+%40
+  /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+%48
+  /zero /one /two /three /four /five /six /seven
+%56
+  /eight /nine /colon /semicolon /less /cybrth /greater /question
+%64
+  /cykavyka /afii10017 /afii10019 /afii10035 /cyPhitaalt /E /cyPhita /cyWt
+%72
+  /H /cyIdieresis /cyPsi /cyKsi /cyIbrth /M /cyIbrthacut /O
+%80
+  /P /cyOYlig /cyEryalt /S /T /cyUkgm /V /W
+%88
+  /X /Y /Z /bracketleft /cyEbrthgrav /bracketright /cycflx /underscore
+%96
+  /cygrav /a /cyIbrthgrav /c /cyphitaalt /e /cyphita /g
+%104
+  /h /i /cypsi /cyksi /cyIcflx /m /cyIacut /o
+%112
+  /p /cyoylig /cyeryalt /s /cyIgrav /cyukgm /v /w
+%120
+  /x /y /z /cyUkbrthgrav /cyYubrthgrav /cyJA /cyttl /cyAbrth
+%128
+  /cyEbrthgrav /cyIoctbrthgrav /cyObrthgrav /cyUkbrthgrav /cyYubrthgrav /cyJAbrthgrav /cyUsbrthgrav /cyukgmacut
+%136
+   /cyyatgrav /cyyatcflx /I /.notdef /.notdef /.notdef /cyWbrthacut /cyOnintrn
+%144
+  /cyWbrthgrav /cyole /cyOle /cyibrthgrav /cyibrthacut /cyicflx /cyibrth /cyigrav
+%152
+  /cyukgmgrav /cyOylig /cyukgmcflx /cyPsi /cypsi /.notdef /.notdef /cyi
+%160
+  /afii10032 /cyDttl /cyOttl /cyGttl /cyRttl /cyCttl /asciitilde /cyerok
+%168                                                          Ï
+  /cywt /cyon /cyiacut /cyonintrn /cybrthacut /cybrthgrav /.notdef /.notdef 
+%176
+  /cyEbrth /cyIoctbrth /cyObrth /cyUkbrth /cyYubrth /cyIAbrth /cyUsbrth /cyAbrthacut
+%184
+  /cyEbrthacut /cyIoctbrthacut /cyObrthacut /cyUkbrthacut /cyYubrthacut /cyJAbrthacut /cyUsbrthacut /cyAbrthgrav 
+%192
+/afii10017 /afii10018 /afii10019 /afii10020 /afii10021 /afii10022 /afii10024 /afii10025
+%200
+/afii10026 /afii10027 /afii10028 /afii10029 /afii10030 /afii10031 /O /afii10033
+%208
+/afii10034 /afii10035 /afii10036 /afii10037 /afii10038 /afii10039 /afii10040 /afii10041
+%216  virt               virt          virt       virt    virt
+/afii10042 /afii10043 /afii10044 /afii10045 /afii10046 /afii10047 /afii10048 /afii10049
+%224
+/afii10065 /afii10066 /afii10067 /afii10068 /afii10069 /afii10070 /afii10072 /afii10073
+%232
+/afii10074 /afii10075 /afii10076 /afii10077 /afii10078 /afii10079 /afii10080 /afii10081
+%240  O        \Ä           \Ï              \Ç         \Ò        \Ó          \Ô            \ß
+/afii10082 /afii10083 /afii10084 /afii10085 /afii10086 /afii10087 /afii10088 /afii10089
+%248                                                                           virt     virt
+/afii10090 /afii10091 /afii10092 /afii10093 /afii10094 /afii10095 /afii10096 /afii10097
+%256
+] def
+

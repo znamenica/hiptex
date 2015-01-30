@@ -1,0 +1,11 @@
+% Filename: T2AIrmologion.fd
+\ProvidesFile{T2AIrmologion.fd}
+   [2000/09/25 Font definitions for T2A/Irmologion]
+\DeclareFontFamily{T2A}{Irmologion}{}
+\DeclareFontShape{T2A}{Irmologion}{m}{n}{ <-> irmucsv }{}
+
+\DeclareFontShape{T2A}{Irmologion}{b}{n}{<->sub * Irmologion/m/n}{}
+\DeclareFontShape{T2A}{Irmologion}{b}{it}{<->sub * Irmologion/m/n}{}
+\DeclareFontShape{T2A}{Irmologion}{b}{sl}{<->sub * Irmologion/m/n}{}
+
+\endinput

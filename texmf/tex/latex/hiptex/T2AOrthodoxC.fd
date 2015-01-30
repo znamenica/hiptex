@@ -1,0 +1,13 @@
+% Filename: T2AOrthodox.fd
+\ProvidesFile{T2AOrthodoxC.fd}
+   [2000/09/25 Font definitions for T2A/OrthodoxC]
+% \def\ortho@scale{1.05882352941}
+\def\ortho@scale{1.00}
+\DeclareFontFamily{T2A}{OrthodoxC}{}
+\DeclareFontShape{T2A}{OrthodoxC}{m}{n}{ <-> s*[\ortho@scale]orthucs8cv }{}
+
+\DeclareFontShape{T2A}{OrthodoxC}{b}{n}{<->sub * Orthodox/m/n}{}
+\DeclareFontShape{T2A}{OrthodoxC}{b}{it}{<->sub * Orthodox/m/n}{}
+\DeclareFontShape{T2A}{OrthodoxC}{b}{sl}{<->sub * Orthodox/m/n}{}
+
+\endinput

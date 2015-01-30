@@ -1,0 +1,11 @@
+% Filename: T2AIzhitsaCS.fd
+\ProvidesFile{T2AIzhitsaCS.fd}
+   [2000/09/25 Font definitions for T2A/IzhitsaCS]
+\DeclareFontFamily{T2A}{IzhitsaCS}{}
+\DeclareFontShape{T2A}{IzhitsaCS}{m}{n}{ <-> izhitsacs }{}
+
+\DeclareFontShape{T2A}{IzhitsaCS}{b}{n}{<->sub * IzhitsaCS/m/n}{}
+\DeclareFontShape{T2A}{IzhitsaCS}{b}{it}{<->sub * IzhitsaCS/m/n}{}
+\DeclareFontShape{T2A}{IzhitsaCS}{b}{sl}{<->sub * IzhitsaCS/m/n}{}
+
+\endinput

@@ -1,0 +1,11 @@
+% Filename: T2APochaev.fd
+\ProvidesFile{T2APochaev.fd}
+   [2000/09/25 Font definitions for T2A/Pochaev]
+\DeclareFontFamily{T2A}{Pochaev}{}
+\DeclareFontShape{T2A}{Pochaev}{m}{n}{ <-> pochucsv }{}
+
+\DeclareFontShape{T2A}{Pochaev}{b}{n}{<->sub * Pochaev/m/n}{}
+\DeclareFontShape{T2A}{Pochaev}{b}{it}{<->sub * Pochaev/m/n}{}
+\DeclareFontShape{T2A}{Pochaev}{b}{sl}{<->sub * Pochaev/m/n}{}
+
+\endinput

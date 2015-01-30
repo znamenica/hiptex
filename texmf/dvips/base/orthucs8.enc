@@ -1,0 +1,66 @@
+/OrtUCS8ToT2AEncoding [
+% 0 0 0
+ /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+% 10 8 8
+ /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /J /afii61369
+% 20 10 16
+ /afii61368 /afii61367 /afii61366 /afii61365 /afii61364 /afii61363 /afii61362 /afii61361
+% 30 18 24
+ /afii61360 /afii61359 /afii61358 /afii61357 /afii61356 /afii61355 /afii61354 /afii61353
+% 40 20 32
+ /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /one
+% 50 28 40
+ /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+% 60 30 48
+ /zero /quotesingle /y /equal /four /five /asciicircum /asciitilde
+% 70 38 56
+ /eight /nine /colon /semicolon /less /three /greater /question
+% 100 40 64
+ /at /afii10017 /afii10019 /afii10035 /D /afii10022 /F /G
+% 110 48 72
+ /afii10031 /I /afii61371 /afii10028 /L /M /N /afii10032
+% 120 50 80
+ /afii10034 /Q /R /afii10054 /T /U /V /W
+% 130 58 88
+ /X /Y /afii10049 /bracketleft /backslash /bracketright /six /underscore
+% 140 60 96
+ /two /afii10065 /b /afii10083 /d /afii10070 /f /g
+% 150 68 104
+ /h /afii10103 /afii61370 /k /l /m /n /afii10080
+% 160 70 112
+ /afii10082 /q /r /afii10102 /t /u /v /w
+% 170 78 120
+ /x /afii10085 /afii10097 /braceleft /bar /braceright /seven /P
+% 200 80 128
+ /afii10051 /afii10052 /H /afii10100 /C /ellipsis /dagger /daggerdbl
+% 210 88 136
+ /j /perthousand /afii10058 /guilsinglleft /afii10059 /afii10061 /afii10060 /afii10145
+% 220 90 144
+ /afii10099 /K /E /A /B /bullet /endash /emdash
+% 230 98 152
+ /p /trademark /afii10106 /guilsinglright /afii10107 /afii10109 /afii10108 /afii10193
+% 240 A0 160
+ /o /afii10062 /afii10110 /afii10057 /currency /afii10050 /brokenbar /section
+% 250 A8 168
+ /afii10023 /copyright /e /guillemotleft /O /a /registered /afii10056
+% 260 B0 176
+ /degree /plusminus /afii10055 /i /afii10098 /mu /paragraph /c
+% 270 B8 184
+ /afii10071 /afii61352 /afii10101 /guillemotright /afii10105 /S /s /afii10104
+% 300 C0 192
+ /afii10017 /afii10018 /afii10019 /afii10020 /afii10021 /afii10022 /afii10024 /afii10025
+% 310 C8 200
+ /afii10026 /afii10027 /afii10028 /afii10029 /afii10030 /afii10031 /afii10032 /afii10033
+% 320 D0 208
+ /afii10034 /afii10035 /afii10036 /afii10037 /afii10038 /afii10039 /afii10040 /afii10041
+% 330 D8 216
+ /afii10042 /afii10043 /afii10044 /afii10045 /afii10046 /afii10047 /afii10048 /Z
+% 340 E0 224
+ /afii10065 /afii10066 /afii10067 /afii10068 /afii10069 /afii10070 /afii10072 /afii10073
+% 350 E8 232
+ /afii10074 /afii10075 /afii10076 /afii10077 /afii10078 /afii10079 /afii10080 /afii10081
+% 360 F0 240
+ /afii10082 /afii10083 /afii10084 /afii10085 /afii10086 /afii10087 /afii10088 /afii10089
+% 370 F8 248
+ /afii10090 /afii10091 /afii10092 /afii10093 /afii10094 /afii10095 /afii10096 /z
+] def

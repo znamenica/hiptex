@@ -1,0 +1,195 @@
+\def\fileversion{1}
+\def\filedate{2000/12/22}
+\ProvidesPackage{hipfonts}[\filedate\space\fileversion
+ \space PSNFSS LaTeX2e PACKAGE LOADING CHURCH SLAVONIC IZHITSA FONT]
+
+\@ifundefined{define@key}{\RequirePackage{keyval}}{}%
+
+% ==============================================================================
+
+\DeclareOption*{\expandafter\mypacksetkeys\expandafter{\CurrentOption}}
+
+\def\mypacksetkeys#1{\setkeys{IzhitsaCS}{#1}}
+
+\newif\ifIzhitsa@antiqua
+\newif\ifIzhitsa@times
+\newif\ifIzhitsa@academy
+\newif\ifIzhitsa@lh
+\newif\ifIzhitsa@elizaveta
+
+\newif\ifIzhitsa@izhitsacs
+\newif\ifIzhitsa@orthodox
+\newif\ifIzhitsa@pochaev
+\newif\ifIzhitsa@irmologion
+
+\define@key{IzhitsaCS}{civil}{\csname Izhitsa@#1true\endcsname}
+\define@key{IzhitsaCS}{cs}{\csname Izhitsa@#1true\endcsname}
+
+\ProcessOptions
+
+% ==============================================================================
+
+\ifIzhitsa@antiqua
+  \@ifundefined{faq}{\usepackage{pscyr}}{}%
+  \def\default@family{faq}
+  %\def\rmdefault{aqfamily}
+\else
+  \ifIzhitsa@times
+     \@ifundefined{ftm}{\usepackage{pscyr}}{}%
+     \def\default@family{ftm}
+     \def\rmdefault{ftm}
+     %\def\rmdefault{tmfamily}
+  \else
+     \ifIzhitsa@lh
+       \def\default@family{cmr}
+     \fi
+  \fi
+\fi
+
+\let\familysav\default@family
+
+% ==============================================================================
+
+\ifIzhitsa@izhitsacs
+  \def\default@csfamily{IzhitsaCS}
+\else
+  \ifIzhitsa@orthodox
+     \def\default@csfamily{Orthodox}
+  \else
+     \ifIzhitsa@pochaev
+        \def\default@csfamily{Pochaev}
+     \else
+        \ifIzhitsa@irmologion
+           \def\default@csfamily{Irmologion}
+        \else
+           \def\default@csfamily{IzhitsaCS}
+        \fi
+     \fi
+  \fi
+\fi
+
+\let\csfamilysav\default@csfamily
+
+% ==============================================================================
+
+\def\@izhspecsym{
+\catcode '0136 = 12
+\catcode '0137 = 12
+\catcode '0176 = 12
+}
+
+\def\@restorespecsym{
+}
+
+% ==============================================================================
+
+\frenchspacing
+
+% ==============================================================================
+
+\def\izhdefault{IzhitsaCS}
+\def\ortdefault{Orthodox}
+\def\ortcdefault{OrthodoxC}
+\def\pocdefault{Pochaev}
+\def\irmdefault{Irmologion}
+
+% ==============================================================================
+
+\DeclareRobustCommand\izhfamily
+        {\not@math@alphabet\rmfamily\mathrm
+         \@izhspecsym
+         \fontfamily\izhdefault\selectfont}
+% \DeclareRobustCommand\ortfamily
+%         {\not@math@alphabet\rmfamily\mathrm
+%          \@izhspecsym
+%          \fontfamily\ortdefault\selectfont}
+\DeclareRobustCommand\cs
+        {\not@math@alphabet\rmfamily\mathrm
+          \catcode94 = 12
+          \catcode95 = 12
+          \catcode126 = 12
+         \let\rmdefaultsav\rmdefault
+         %\default@family
+         \let\familysav\default@family
+         \fontfamily\csfamilysav\selectfont}
+\DeclareTextFontCommand{\textizh}{\izhfamily}
+
+\DeclareRobustCommand\civil
+        {\not@math@alphabet\rmfamily\mathrm
+         \let\rmdefault\rmdefaultsav
+         \catcode94 = 7
+         \catcode95 = 8
+         \catcode126 = 13
+         \let\csfamilysav\default@csfamily
+         \fontfamily\familysav\selectfont}
+
+% ==============================================================================
+
+% \def\ä{\char161}
+% \def\î{\char162}
+% \def\o{\char162}
+% \def\ã{\char163}
+% \def\ð{\char164}
+% \def\p{\char164}
+% \def\ñ{\char165}
+% \def\c{\char165}
+% \def\C{\char'33}
+% \def\Ñ{\char'33}
+% \def\ò{\char166 }
+% \def\ú{\char167 }
+
+% \chardef\ä=161
+% \chardef\î=162
+% \chardef\o=162
+% \chardef\ã=163
+% \chardef\ð=164
+% \chardef\p=164
+% \chardef\ñ=165
+% \chardef\c=165
+% \chardef\C=27
+% \chardef\Ñ=27
+% \chardef\ò=166
+% \chardef\ú=167
+
+\def\ä{\char'144}
+\def\î{\char'142}
+\def\o{\char'142}
+\def\ã{\char'147}
+\def\ð{\char'76}
+\def\p{\char'76}
+\def\ñ{\char'267}
+\def\c{\char'267}
+\def\Ñ{\char'204}
+\def\ò{\char'32 }
+\def\ú{\char'70 }
+
+% \chardef\ä='141
+% \chardef\î='142
+% \chardef\o='142
+% \chardef\ã='147
+% \chardef\ð='76
+% \chardef\p='76
+% \chardef\ñ='267
+% \chardef\c='267
+% %\chardef\C=27
+% %\chardef\Ñ=27
+% \chardef\ò='32
+% \chardef\ú='70
+
+% \uccode252=17 % ='
+% \uccode252=18 % =`
+% \uccode94=19  % ^
+% \uccode126=20 % "
+% \uccode161=21 % \ä
+% \uccode126=22 % ~
+% \uccode61=23  % =
+% \uccode39=24  % '
+% \uccode96=25  % `
+% \uccode162=26 % \o
+% \uccode165=27 % \c
+% \uccode164=28 % \ð
+% \uccode163=29 % \ã
+% \uccode167=30 % \ú
+
+\def\MUC#1{\MakeUppercase#1}
+
