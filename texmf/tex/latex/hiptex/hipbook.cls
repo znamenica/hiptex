@@ -451,7 +451,7 @@
                                 %\fbox{
                                 % \scalebox{0.6}{\includegraphics* [170, 450] [420, 827] {david1.ps}} 
                                 %\scalebox{0.3}{\includegraphics* {david.ps}} 
-    {\izhverylarge +} % православный крест
+    {\izhverylarge +} % РїСЂР°РІРѕСЃР»Р°РІРЅС‹Р№ РєСЂРµСЃС‚
                                 %} \\
     \\
     \vskip 15 mm
@@ -465,10 +465,10 @@
 
 \newcommand{\slava}{%
   \vskip 0.75\baselineskip%
-  \centerline{\color{red}Сла'ва:}%
+  \centerline{\color{red}РЎР»Р°'РІР°:}%
   }
 
-% \def\contentsname{W=главле'нiе кни'ги сея`:}
+% \def\contentsname{W=РіР»Р°РІР»Рµ'РЅiРµ РєРЅРё'РіРё СЃРµСЏ`:}
 \def\contentsname{12345}
 
 \renewcommand{\contentsname}{12345}
@@ -481,8 +481,8 @@
     {\izhitsaraw+} 
     \vskip 0.5\baselineskip 
     %\small 
-    {\cs Во сла'ву ст~jь'й, _е=диносу'щнjьй,\\ нераздjь'льнjьй
-      и= животворя'щей тр\оцы, а=ми'нь.}
+    {\cs Р’Рѕ СЃР»Р°'РІСѓ СЃС‚~jСЊ'Р№, _Рµ=РґРёРЅРѕСЃСѓ'С‰РЅjСЊР№,\\ РЅРµСЂР°Р·РґjСЊ'Р»СЊРЅjСЊР№
+      Рё= Р¶РёРІРѕС‚РІРѕСЂСЏ'С‰РµР№ С‚СЂ\РѕС†С‹, Р°=РјРё'РЅСЊ.}
   \end{center}
   \newpage
 }
