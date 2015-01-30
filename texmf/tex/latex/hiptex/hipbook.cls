@@ -121,7 +121,7 @@
       \ifkoienc@
          \PassOptionsToPackage{koi8-r}{inputenc} 
       \else
-         \PassOptionsToPackage{cp1251}{inputenc} 
+         \PassOptionsToPackage{utf8}{inputenc} 
       \fi
    \fi
 \fi
