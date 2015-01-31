@@ -125,6 +125,16 @@
 
 % ==============================================================================
 
+\newcommand\spc[1]{%
+   \symbol{`\\}% the backslash
+     #1% the letter
+   }
+
+\def\^^d0#1{\spc{^^d0#1}}
+\def\^^d1#1{\spc{^^d1#1}}
+
+% ==========================================================================================
+
 % \def\д{\char161}
 % \def\о{\char162}
 % \def\o{\char162}
@@ -151,17 +161,17 @@
 % \chardef\т=166
 % \chardef\ъ=167
 
-\def\д{\char'144}
-\def\о{\char'142}
-\def\o{\char'142}
-\def\г{\char'147}
-\def\р{\char'76}
-\def\p{\char'76}
-\def\с{\char'267}
-\def\c{\char'267}
-\def\С{\char'204}
-\def\т{\char'32 }
-\def\ъ{\char'70 }
+% \def\д{\char'144}
+% \def\о{\char'142}
+% \def\o{\char'142}
+% \def\г{\char'147}
+% \def\р{\char'76}
+% \def\p{\char'76}
+% \def\с{\char'267}
+% \def\c{\char'267}
+% \def\С{\char'204}
+% \def\т{\char'32 }
+% \def\ъ{\char'70 }
 
 % \chardef\д='141
 % \chardef\о='142
