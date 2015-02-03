@@ -1,3 +1,6 @@
 **/*~
 **/*.sw*
 **/*.tfm
+**/*.vf
+texmf/fonts/tfm/
+texmf/fonts/vf/

@@ -1,3 +1,4 @@
+(VTITLE Created by afm2tfm irmucs.afm -O -u -v irmucsv.vpl -T orthucs8.enc)
 (FAMILY TEX-IRMUCS)
 (FACE F MRR)
 (CODINGSCHEME ORTUCS8TOT2AENCODING)
@@ -13,6 +14,12 @@
    (XHEIGHT R 0.487)
    (QUAD R 1.0)
    (EXTRASPACE R 0.111)
+   )
+(MAPFONT D 0
+   (FONTNAME irmucs)
+   (FONTCHECKSUM O 1124771264)
+   (FONTAT R 1.0)
+   (FONTDSIZE R 10.0)
    )
 (LIGTABLE
    (LABEL O 223)
@@ -4182,12 +4189,18 @@
       (KRN O 51 R -0.027)
       (KRN O 42 R 0.072)
       )
+   (MAP
+      (SETCHAR O 16)
+      )
    )
 (CHARACTER O 17
    (CHARWD R 0.0)
    (COMMENT
       (LIG C c O 230)
       (LIG O 361 O 230)
+      )
+   (MAP
+      (SETCHAR O 17)
       )
    )
 (CHARACTER O 20
@@ -4198,6 +4211,9 @@
       (LIG C C O 177)
       (LIG O 321 O 177)
       )
+   (MAP
+      (SETCHAR O 20)
+      )
    )
 (CHARACTER O 21
    (CHARWD R 0.0)
@@ -4207,6 +4223,9 @@
       (LIG C C C X)
       (LIG O 321 C X)
       )
+   (MAP
+      (SETCHAR O 21)
+      )
    )
 (CHARACTER O 22
    (CHARWD R 0.0)
@@ -4214,51 +4233,112 @@
       (LIG C c C x)
       (LIG O 361 C x)
       )
+   (MAP
+      (SETCHAR O 22)
+      )
    )
 (CHARACTER O 23
    (CHARWD R 0.333)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
+   (MAP
+      )
    )
 (CHARACTER O 24
    (CHARWD R 1.019)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
+   (MAP
+      (PUSH)
+      (SETCHAR C U)
+      (POP)
+      (MOVERIGHT R 1.019)
+      (SETCHAR C 5)
+      )
    )
 (CHARACTER O 25
    (CHARWD R 0.739)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
+   (MAP
+      (PUSH)
+      (SETCHAR C u)
+      (POP)
+      (MOVERIGHT R 0.739)
+      (SETCHAR C 5)
+      )
    )
 (CHARACTER O 26
    (CHARWD R 0.613)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
+   (MAP
+      (PUSH)
+      (SETCHAR O 305)
+      (POP)
+      (MOVERIGHT R 0.613)
+      (SETCHAR O 45)
+      )
    )
 (CHARACTER O 27
    (CHARWD R 0.58)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
+   (MAP
+      (PUSH)
+      (SETCHAR O 310)
+      (POP)
+      (MOVERIGHT R 0.493)
+      (SETCHAR O 45)
+      )
    )
 (CHARACTER O 30
    (CHARWD R 0.806)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
+   (MAP
+      (PUSH)
+      (SETCHAR C W)
+      (POP)
+      (MOVERIGHT R 0.685)
+      (SETCHAR O 44)
+      )
    )
 (CHARACTER O 31
    (CHARWD R 0.613)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
+   (MAP
+      (PUSH)
+      (SETCHAR O 305)
+      (POP)
+      (MOVERIGHT R 0.613)
+      (SETCHAR O 44)
+      )
    )
 (CHARACTER O 32
    (CHARWD R 0.58)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
+   (MAP
+      (PUSH)
+      (SETCHAR O 310)
+      (POP)
+      (MOVERIGHT R 0.58)
+      (SETCHAR O 44)
+      )
    )
 (CHARACTER O 33
    (CHARWD R 0.58)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
+   (MAP
+      (PUSH)
+      (SETCHAR O 310)
+      (POP)
+      (MOVERIGHT R 0.58)
+      (SETCHAR O 44)
+      )
    )
 (CHARACTER O 34
    (CHARWD R 0.613)
@@ -4267,6 +4347,13 @@
    (COMMENT
       (LIG O 47 O 31)
       (LIG O 140 O 26)
+      )
+   (MAP
+      (PUSH)
+      (SETCHAR O 305)
+      (POP)
+      (MOVERIGHT R 0.613)
+      (SETCHAR O 43)
       )
    )
 (CHARACTER O 35
@@ -4277,6 +4364,13 @@
       (LIG C y C u)
       (LIG O 363 C u)
       )
+   (MAP
+      (PUSH)
+      (SETCHAR O 310)
+      (POP)
+      (MOVERIGHT R 0.58)
+      (SETCHAR O 43)
+      )
    )
 (CHARACTER O 36
    (CHARWD R 0.58)
@@ -4285,6 +4379,13 @@
    (COMMENT
       (LIG C y C U)
       (LIG O 363 C U)
+      )
+   (MAP
+      (PUSH)
+      (SETCHAR O 310)
+      (POP)
+      (MOVERIGHT R 0.58)
+      (SETCHAR O 43)
       )
    )
 (CHARACTER O 37
@@ -4295,9 +4396,19 @@
       (LIG O 47 O 33)
       (LIG O 140 O 27)
       )
+   (MAP
+      (PUSH)
+      (SETCHAR O 310)
+      (POP)
+      (MOVERIGHT R 0.58)
+      (SETCHAR O 43)
+      )
    )
 (CHARACTER O 40
    (CHARWD R 0.0)
+   (MAP
+      (SETCHAR O 40)
+      )
    )
 (CHARACTER O 41
    (CHARWD R 0.197)
@@ -4309,6 +4420,9 @@
       (KRN C V R -0.017)
       (KRN C M R -0.017)
       (KRN O 57 R -0.033)
+      )
+   (MAP
+      (SETCHAR O 41)
       )
    )
 (CHARACTER O 42
@@ -4366,6 +4480,9 @@
       (KRN C D R -0.035)
       (KRN O 223 R -0.053)
       (KRN O 57 R -0.182)
+      )
+   (MAP
+      (SETCHAR O 42)
       )
    )
 (CHARACTER O 43
@@ -4462,6 +4579,9 @@
       (KRN O 224 R -0.075)
       (KRN O 223 R -0.048)
       )
+   (MAP
+      (SETCHAR O 43)
+      )
    )
 (CHARACTER O 44
    (CHARWD R 0.001)
@@ -4469,6 +4589,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (KRN C 3 R -0.027)
+      )
+   (MAP
+      (SETCHAR O 44)
       )
    )
 (CHARACTER O 45
@@ -4511,16 +4634,25 @@
       (KRN C D R -0.028)
       (KRN O 223 R -0.013)
       )
+   (MAP
+      (SETCHAR O 45)
+      )
    )
 (CHARACTER O 46
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 46)
+      )
    )
 (CHARACTER O 47
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 47)
+      )
    )
 (CHARACTER O 50
    (CHARWD R 0.294)
@@ -4629,6 +4761,9 @@
       (KRN O 50 R -0.077)
       (KRN O 42 R -0.048)
       )
+   (MAP
+      (SETCHAR O 50)
+      )
    )
 (CHARACTER O 51
    (CHARWD R 0.287)
@@ -4637,6 +4772,9 @@
    (COMMENT
       (KRN O 57 R -0.053)
       (KRN O 51 R -0.077)
+      )
+   (MAP
+      (SETCHAR O 51)
       )
    )
 (CHARACTER O 52
@@ -4660,17 +4798,26 @@
       (KRN O 57 R -0.14)
       (KRN O 51 R -0.047)
       )
+   (MAP
+      (SETCHAR O 52)
+      )
    )
 (CHARACTER O 53
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.123)
+   (MAP
+      (SETCHAR O 53)
+      )
    )
 (CHARACTER O 54
    (CHARWD R 0.235)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 54)
+      )
    )
 (CHARACTER O 55
    (CHARWD R 0.34)
@@ -4701,6 +4848,9 @@
       (KRN O 57 R -0.082)
       (KRN O 51 R -0.065)
       )
+   (MAP
+      (SETCHAR O 55)
+      )
    )
 (CHARACTER O 56
    (CHARWD R 0.176)
@@ -4727,6 +4877,9 @@
       (KRN O 177 R -0.039)
       (KRN C L R -0.017)
       (KRN C D R -0.02)
+      )
+   (MAP
+      (SETCHAR O 56)
       )
    )
 (CHARACTER O 57
@@ -4842,16 +4995,25 @@
       (KRN O 51 R 0.07)
       (KRN O 50 R -0.07)
       )
+   (MAP
+      (SETCHAR O 57)
+      )
    )
 (CHARACTER C 0
    (CHARWD R 0.475)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR C 0)
+      )
    )
 (CHARACTER C 1
    (CHARWD R 0.254)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR C 1)
+      )
    )
 (CHARACTER C 2
    (CHARWD R 0.448)
@@ -4860,6 +5022,9 @@
    (CHARIC R 0.085)
    (COMMENT
       (KRN O 252 R 0.015)
+      )
+   (MAP
+      (SETCHAR C 2)
       )
    )
 (CHARACTER C 3
@@ -4872,17 +5037,26 @@
       (KRN C 3 R -0.091)
       (KRN O 247 R -0.012)
       )
+   (MAP
+      (SETCHAR C 3)
+      )
    )
 (CHARACTER C 4
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR C 4)
+      )
    )
 (CHARACTER C 5
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.003)
+   (MAP
+      (SETCHAR C 5)
+      )
    )
 (CHARACTER C 6
    (CHARWD R 0.001)
@@ -4917,21 +5091,33 @@
       (KRN O 57 R -0.047)
       (KRN O 51 R -0.064)
       )
+   (MAP
+      (SETCHAR C 6)
+      )
    )
 (CHARACTER C 7
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR C 7)
+      )
    )
 (CHARACTER C 8
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR C 8)
+      )
    )
 (CHARACTER C 9
    (CHARWD R 0.684)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR C 9)
+      )
    )
 (CHARACTER O 72
    (CHARWD R 0.164)
@@ -4946,6 +5132,9 @@
       (KRN C F R -0.048)
       (KRN O 57 R -0.029)
       )
+   (MAP
+      (SETCHAR O 72)
+      )
    )
 (CHARACTER O 73
    (CHARWD R 0.235)
@@ -4953,6 +5142,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (KRN O 57 R -0.012)
+      )
+   (MAP
+      (SETCHAR O 73)
       )
    )
 (CHARACTER O 74
@@ -4965,6 +5157,9 @@
       (KRN C V R -0.029)
       (KRN C M R -0.029)
       )
+   (MAP
+      (SETCHAR O 74)
+      )
    )
 (CHARACTER O 75
    (CHARWD R 0.001)
@@ -4974,6 +5169,9 @@
       (LIG O 47 C 4)
       (LIG O 140 C 5)
       (LIG O 140 C 5)
+      )
+   (MAP
+      (SETCHAR O 75)
       )
    )
 (CHARACTER O 76
@@ -5013,12 +5211,18 @@
       (KRN C D R -0.039)
       (KRN O 223 R -0.021)
       )
+   (MAP
+      (SETCHAR O 76)
+      )
    )
 (CHARACTER O 77
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.168)
+   (MAP
+      (SETCHAR O 77)
+      )
    )
 (CHARACTER O 100
    (CHARWD R 0.001)
@@ -5061,6 +5265,9 @@
       (KRN O 52 R -0.022)
       (KRN O 51 R -0.068)
       )
+   (MAP
+      (SETCHAR O 100)
+      )
    )
 (CHARACTER C A
    (CHARWD R 0.554)
@@ -5069,16 +5276,25 @@
    (COMMENT
       (LIG O 75 O 245)
       )
+   (MAP
+      (SETCHAR O 300)
+      )
    )
 (CHARACTER C B
    (CHARWD R 0.523)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 302)
+      )
    )
 (CHARACTER C C
    (CHARWD R 0.55)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 321)
+      )
    )
 (CHARACTER C D
    (CHARWD R 0.402)
@@ -5187,6 +5403,9 @@
       (KRN O 52 R -0.056)
       (KRN O 51 R -0.05)
       )
+   (MAP
+      (SETCHAR C D)
+      )
    )
 (CHARACTER C E
    (CHARWD R 0.613)
@@ -5194,6 +5413,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (LIG O 75 O 34)
+      )
+   (MAP
+      (SETCHAR O 305)
       )
    )
 (CHARACTER C F
@@ -5242,6 +5464,9 @@
       (KRN O 72 R -0.037)
       (KRN O 53 R -0.041)
       (KRN O 45 R -0.029)
+      )
+   (MAP
+      (SETCHAR C F)
       )
    )
 (CHARACTER C G
@@ -5337,11 +5562,17 @@
       (KRN O 54 R -0.078)
       (KRN O 51 R -0.067)
       )
+   (MAP
+      (SETCHAR C G)
+      )
    )
 (CHARACTER C H
    (CHARWD R 0.58)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 315)
+      )
    )
 (CHARACTER C I
    (CHARWD R 0.255)
@@ -5360,6 +5591,9 @@
       (KRN O 51 R -0.048)
       (LIG O 75 O 257)
       )
+   (MAP
+      (SETCHAR C I)
+      )
    )
 (CHARACTER C J
    (CHARWD R 0.215)
@@ -5371,11 +5605,17 @@
       (LIG C A C Z)
       (LIG O 300 C Z)
       )
+   (MAP
+      (SETCHAR C J)
+      )
    )
 (CHARACTER C K
    (CHARWD R 0.587)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 312)
+      )
    )
 (CHARACTER C L
    (CHARWD R 0.426)
@@ -5441,6 +5681,9 @@
       (KRN O 222 R -0.013)
       (KRN O 224 R -0.017)
       (KRN O 51 R -0.051)
+      )
+   (MAP
+      (SETCHAR C L)
       )
    )
 (CHARACTER C M
@@ -5547,6 +5790,9 @@
       (KRN O 224 R -0.069)
       (KRN O 223 R -0.061)
       )
+   (MAP
+      (SETCHAR C M)
+      )
    )
 (CHARACTER C N
    (CHARWD R 0.846)
@@ -5628,6 +5874,9 @@
       (KRN C D R -0.025)
       (LIG O 47 O 217)
       )
+   (MAP
+      (SETCHAR C N)
+      )
    )
 (CHARACTER C O
    (CHARWD R 0.53)
@@ -5637,11 +5886,17 @@
       (LIG O 75 C N)
       (LIG O 137 O 36)
       )
+   (MAP
+      (SETCHAR O 316)
+      )
    )
 (CHARACTER C P
    (CHARWD R 0.607)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 320)
+      )
    )
 (CHARACTER C Q
    (CHARWD R 0.874)
@@ -5680,6 +5935,9 @@
       (KRN C L R -0.027)
       (KRN C D R -0.023)
       )
+   (MAP
+      (SETCHAR C Q)
+      )
    )
 (CHARACTER C R
    (CHARWD R 0.314)
@@ -5702,11 +5960,17 @@
       (KRN C D R 0.008)
       (KRN O 51 R -0.045)
       )
+   (MAP
+      (SETCHAR C R)
+      )
    )
 (CHARACTER C S
    (CHARWD R 0.677)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR C S)
+      )
    )
 (CHARACTER C T
    (CHARWD R 0.929)
@@ -5758,6 +6022,9 @@
       (KRN O 275 R -0.025)
       (KRN C L R -0.025)
       (KRN C D R -0.014)
+      )
+   (MAP
+      (SETCHAR C T)
       )
    )
 (CHARACTER C U
@@ -5844,6 +6111,9 @@
       (KRN C D R -0.018)
       (KRN O 223 R -0.018)
       (LIG O 75 O 241)
+      )
+   (MAP
+      (SETCHAR C U)
       )
    )
 (CHARACTER C V
@@ -5987,6 +6257,9 @@
       (KRN O 223 R -0.061)
       (LIG O 42 C M)
       )
+   (MAP
+      (SETCHAR C V)
+      )
    )
 (CHARACTER C W
    (CHARWD R 0.806)
@@ -6026,6 +6299,9 @@
       (LIG O 75 O 214)
       (LIG O 32 C T)
       )
+   (MAP
+      (SETCHAR C W)
+      )
    )
 (CHARACTER C X
    (CHARWD R 0.683)
@@ -6042,6 +6318,9 @@
       (KRN C m R -0.008)
       (KRN C F R -0.038)
       )
+   (MAP
+      (SETCHAR C X)
+      )
    )
 (CHARACTER C Y
    (CHARWD R 0.448)
@@ -6052,6 +6331,9 @@
       (KRN O 51 R -0.059)
       (KRN O 252 R 0.015)
       )
+   (MAP
+      (SETCHAR C Y)
+      )
    )
 (CHARACTER C Z
    (CHARWD R 0.832)
@@ -6059,6 +6341,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (LIG O 75 O 221)
+      )
+   (MAP
+      (SETCHAR C Z)
       )
    )
 (CHARACTER O 133
@@ -6076,6 +6361,9 @@
       (KRN O 230 R -0.014)
       (KRN C f R -0.027)
       (KRN O 51 R -0.068)
+      )
+   (MAP
+      (SETCHAR O 133)
       )
    )
 (CHARACTER O 134
@@ -6131,6 +6419,9 @@
       (KRN O 224 R -0.035)
       (KRN O 52 R -0.111)
       (KRN O 51 R -0.07)
+      )
+   (MAP
+      (SETCHAR O 134)
       )
    )
 (CHARACTER O 135
@@ -6194,11 +6485,17 @@
       (KRN O 51 R -0.067)
       (KRN O 57 R 0.029)
       )
+   (MAP
+      (SETCHAR O 135)
+      )
    )
 (CHARACTER O 136
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 136)
+      )
    )
 (CHARACTER O 137
    (CHARWD R 0.001)
@@ -6247,11 +6544,17 @@
       (LIG C w C q)
       (LIG C W C Q)
       )
+   (MAP
+      (SETCHAR O 137)
+      )
    )
 (CHARACTER O 140
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 140)
+      )
    )
 (CHARACTER C a
    (CHARWD R 0.383)
@@ -6265,6 +6568,9 @@
       (LIG O 75 O 264)
       (LIG O 136 O 206)
       (LIG O 176 O 271)
+      )
+   (MAP
+      (SETCHAR O 340)
       )
    )
 (CHARACTER C b
@@ -6309,6 +6615,9 @@
       (KRN O 52 R -0.022)
       (KRN O 51 R -0.068)
       )
+   (MAP
+      (SETCHAR C b)
+      )
    )
 (CHARACTER C c
    (CHARWD R 0.286)
@@ -6316,6 +6625,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (LIG O 176 O 251)
+      )
+   (MAP
+      (SETCHAR O 361)
       )
    )
 (CHARACTER C d
@@ -6376,6 +6688,9 @@
       (KRN O 52 R -0.115)
       (KRN O 51 R -0.069)
       )
+   (MAP
+      (SETCHAR C d)
+      )
    )
 (CHARACTER C e
    (CHARWD R 0.322)
@@ -6384,6 +6699,9 @@
    (COMMENT
       (LIG O 47 O 252)
       (LIG O 140 O 222)
+      )
+   (MAP
+      (SETCHAR O 345)
       )
    )
 (CHARACTER C f
@@ -6473,6 +6791,9 @@
       (KRN O 51 R -0.048)
       (KRN O 42 R -0.142)
       )
+   (MAP
+      (SETCHAR C f)
+      )
    )
 (CHARACTER C g
    (CHARWD R 0.001)
@@ -6497,6 +6818,9 @@
       (KRN O 223 R 0.004)
       (KRN O 51 R -0.027)
       (KRN O 42 R 0.072)
+      )
+   (MAP
+      (SETCHAR C g)
       )
    )
 (CHARACTER C h
@@ -6559,6 +6883,9 @@
       (KRN C f R -0.027)
       (KRN O 51 R -0.068)
       )
+   (MAP
+      (SETCHAR C h)
+      )
    )
 (CHARACTER C i
    (CHARWD R 0.251)
@@ -6571,6 +6898,9 @@
       (LIG O 136 O 207)
       (LIG O 176 O 213)
       )
+   (MAP
+      (SETCHAR C i)
+      )
    )
 (CHARACTER C j
    (CHARWD R 0.215)
@@ -6581,6 +6911,9 @@
       (LIG C a C z)
       (LIG O 340 C z)
       (LIG O 374 O 375)
+      )
+   (MAP
+      (SETCHAR C j)
       )
    )
 (CHARACTER C k
@@ -6653,6 +6986,9 @@
       (KRN O 51 R -0.063)
       (LIG O 47 O 236)
       (LIG O 140 O 261)
+      )
+   (MAP
+      (SETCHAR C k)
       )
    )
 (CHARACTER C l
@@ -6745,6 +7081,9 @@
       (KRN O 224 R -0.017)
       (KRN O 51 R -0.051)
       )
+   (MAP
+      (SETCHAR C l)
+      )
    )
 (CHARACTER C m
    (CHARWD R 0.494)
@@ -6824,6 +7163,9 @@
       (KRN O 54 R -0.09)
       (KRN O 51 R -0.061)
       )
+   (MAP
+      (SETCHAR C m)
+      )
    )
 (CHARACTER C n
    (CHARWD R 0.74)
@@ -6862,6 +7204,9 @@
       (KRN O 51 R -0.055)
       (LIG O 47 O 237)
       )
+   (MAP
+      (SETCHAR C n)
+      )
    )
 (CHARACTER C o
    (CHARWD R 0.475)
@@ -6869,6 +7214,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (LIG O 137 O 35)
+      )
+   (MAP
+      (SETCHAR O 356)
       )
    )
 (CHARACTER C p
@@ -6879,6 +7227,9 @@
       (LIG O 176 C R)
       (LIG C d O 256)
       (LIG O 267 C r)
+      )
+   (MAP
+      (SETCHAR O 360)
       )
    )
 (CHARACTER C q
@@ -6942,6 +7293,9 @@
       (KRN O 54 R -0.041)
       (KRN O 51 R -0.065)
       )
+   (MAP
+      (SETCHAR C q)
+      )
    )
 (CHARACTER C r
    (CHARWD R 0.314)
@@ -6955,11 +7309,17 @@
       (KRN C D R 0.008)
       (KRN O 51 R -0.045)
       )
+   (MAP
+      (SETCHAR C r)
+      )
    )
 (CHARACTER C s
    (CHARWD R 0.555)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR C s)
+      )
    )
 (CHARACTER C t
    (CHARWD R 0.705)
@@ -7010,6 +7370,9 @@
       (KRN O 54 R -0.055)
       (KRN O 51 R -0.055)
       )
+   (MAP
+      (SETCHAR C t)
+      )
    )
 (CHARACTER C u
    (CHARWD R 0.739)
@@ -7054,6 +7417,9 @@
       (KRN O 54 R -0.083)
       (KRN O 51 R -0.048)
       (LIG O 75 O 242)
+      )
+   (MAP
+      (SETCHAR C u)
       )
    )
 (CHARACTER C v
@@ -7107,6 +7473,9 @@
       (LIG O 47 O 200)
       (LIG O 136 O 233)
       (LIG C g O 220)
+      )
+   (MAP
+      (SETCHAR C v)
       )
    )
 (CHARACTER C w
@@ -7164,6 +7533,9 @@
       (LIG O 75 O 234)
       (LIG O 32 C t)
       )
+   (MAP
+      (SETCHAR C w)
+      )
    )
 (CHARACTER C x
    (CHARWD R 0.443)
@@ -7201,6 +7573,9 @@
       (KRN O 51 R -0.068)
       (LIG O 176 O 205)
       )
+   (MAP
+      (SETCHAR C x)
+      )
    )
 (CHARACTER C y
    (CHARWD R 0.448)
@@ -7212,6 +7587,9 @@
       (LIG O 140 C Y)
       (LIG O 136 O 173)
       )
+   (MAP
+      (SETCHAR O 363)
+      )
    )
 (CHARACTER C z
    (CHARWD R 0.62)
@@ -7219,6 +7597,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (LIG O 75 C k)
+      )
+   (MAP
+      (SETCHAR C z)
       )
    )
 (CHARACTER O 173
@@ -7228,6 +7609,9 @@
    (CHARIC R 0.085)
    (COMMENT
       (KRN O 252 R 0.015)
+      )
+   (MAP
+      (SETCHAR O 173)
       )
    )
 (CHARACTER O 174
@@ -7266,6 +7650,9 @@
       (KRN O 52 R -0.048)
       (KRN O 51 R -0.055)
       )
+   (MAP
+      (SETCHAR O 174)
+      )
    )
 (CHARACTER O 175
    (CHARWD R 0.446)
@@ -7283,6 +7670,9 @@
       (KRN O 223 R 0.01)
       (KRN O 51 R -0.053)
       )
+   (MAP
+      (SETCHAR O 175)
+      )
    )
 (CHARACTER O 176
    (CHARWD R 0.001)
@@ -7290,6 +7680,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (LIG O 176 O 40)
+      )
+   (MAP
+      (SETCHAR O 176)
       )
    )
 (CHARACTER O 177
@@ -7399,17 +7792,26 @@
       (KRN O 224 R -0.081)
       (KRN O 223 R -0.07)
       )
+   (MAP
+      (SETCHAR O 177)
+      )
    )
 (CHARACTER O 200
    (CHARWD R 0.494)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 200)
+      )
    )
 (CHARACTER O 201
    (CHARWD R 0.554)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.028)
+   (MAP
+      (SETCHAR O 201)
+      )
    )
 (CHARACTER O 202
    (CHARWD R 0.705)
@@ -7473,12 +7875,18 @@
       (KRN O 54 R -0.055)
       (KRN O 51 R -0.066)
       )
+   (MAP
+      (SETCHAR O 202)
+      )
    )
 (CHARACTER O 203
    (CHARWD R 0.373)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.037)
+   (MAP
+      (SETCHAR O 203)
+      )
    )
 (CHARACTER O 204
    (CHARWD R 0.001)
@@ -7537,6 +7945,9 @@
       (KRN O 54 R -0.078)
       (KRN O 51 R -0.067)
       )
+   (MAP
+      (SETCHAR O 204)
+      )
    )
 (CHARACTER O 205
    (CHARWD R 0.443)
@@ -7572,6 +7983,9 @@
       (KRN O 202 R -0.016)
       (KRN O 222 R -0.01)
       (KRN O 51 R -0.068)
+      )
+   (MAP
+      (SETCHAR O 205)
       )
    )
 (CHARACTER O 206
@@ -7615,6 +8029,9 @@
       (KRN O 52 R -0.022)
       (KRN O 51 R -0.068)
       )
+   (MAP
+      (SETCHAR O 206)
+      )
    )
 (CHARACTER O 207
    (CHARWD R 0.215)
@@ -7639,6 +8056,9 @@
       (KRN O 223 R 0.004)
       (KRN O 51 R -0.027)
       (KRN O 42 R 0.072)
+      )
+   (MAP
+      (SETCHAR O 207)
       )
    )
 (CHARACTER O 210
@@ -7690,6 +8110,9 @@
       (KRN O 223 R 0.004)
       (KRN O 51 R -0.027)
       (KRN O 42 R 0.072)
+      )
+   (MAP
+      (SETCHAR O 210)
       )
    )
 (CHARACTER O 211
@@ -7743,11 +8166,17 @@
       (KRN O 51 R -0.059)
       (KRN O 42 R -0.065)
       )
+   (MAP
+      (SETCHAR O 211)
+      )
    )
 (CHARACTER O 212
    (CHARWD R 0.844)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 212)
+      )
    )
 (CHARACTER O 213
    (CHARWD R 0.215)
@@ -7773,6 +8202,9 @@
       (KRN O 51 R -0.027)
       (KRN O 42 R 0.072)
       )
+   (MAP
+      (SETCHAR O 213)
+      )
    )
 (CHARACTER O 214
    (CHARWD R 0.806)
@@ -7781,27 +8213,42 @@
    (COMMENT
       (LIG O 47 O 30)
       )
+   (MAP
+      (SETCHAR O 214)
+      )
    )
 (CHARACTER O 215
    (CHARWD R 1.019)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 215)
+      )
    )
 (CHARACTER O 216
    (CHARWD R 0.832)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 216)
+      )
    )
 (CHARACTER O 217
    (CHARWD R 0.846)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 217)
+      )
    )
 (CHARACTER O 220
    (CHARWD R 0.494)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.157)
+   (MAP
+      (SETCHAR O 220)
+      )
    )
 (CHARACTER O 221
    (CHARWD R 0.832)
@@ -7857,6 +8304,9 @@
       (KRN O 51 R -0.051)
       (LIG O 47 O 216)
       )
+   (MAP
+      (SETCHAR O 221)
+      )
    )
 (CHARACTER O 222
    (CHARWD R 0.322)
@@ -7887,6 +8337,9 @@
       (KRN C f R -0.044)
       (KRN O 275 R -0.011)
       (KRN C L R -0.026)
+      )
+   (MAP
+      (SETCHAR O 222)
       )
    )
 (CHARACTER O 223
@@ -7963,6 +8416,9 @@
       (KRN O 224 R -0.01)
       (KRN O 52 R -0.022)
       (KRN O 51 R -0.068)
+      )
+   (MAP
+      (SETCHAR O 223)
       )
    )
 (CHARACTER O 224
@@ -8092,12 +8548,18 @@
       (KRN O 222 R -0.014)
       (KRN O 51 R -0.067)
       )
+   (MAP
+      (SETCHAR O 224)
+      )
    )
 (CHARACTER O 225
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.013)
+   (MAP
+      (SETCHAR O 225)
+      )
    )
 (CHARACTER O 226
    (CHARWD R 0.481)
@@ -8107,6 +8569,9 @@
       (LIG O 55 O 227)
       (KRN O 57 R -0.106)
       )
+   (MAP
+      (SETCHAR O 226)
+      )
    )
 (CHARACTER O 227
    (CHARWD R 0.641)
@@ -8114,6 +8579,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (KRN O 57 R -0.084)
+      )
+   (MAP
+      (SETCHAR O 227)
       )
    )
 (CHARACTER O 230
@@ -8135,6 +8603,9 @@
       (KRN O 275 R -0.079)
       (KRN O 223 R -0.049)
       )
+   (MAP
+      (SETCHAR O 230)
+      )
    )
 (CHARACTER O 231
    (CHARWD R 0.615)
@@ -8151,6 +8622,9 @@
       (KRN O 255 R -0.01)
       (KRN O 223 R -0.01)
       )
+   (MAP
+      (SETCHAR O 231)
+      )
    )
 (CHARACTER O 232
    (CHARWD R 0.61)
@@ -8158,6 +8632,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (LIG O 140 O 174)
+      )
+   (MAP
+      (SETCHAR O 232)
       )
    )
 (CHARACTER O 233
@@ -8208,26 +8685,41 @@
       (KRN O 54 R -0.09)
       (KRN O 51 R -0.061)
       )
+   (MAP
+      (SETCHAR O 233)
+      )
    )
 (CHARACTER O 234
    (CHARWD R 0.705)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 234)
+      )
    )
 (CHARACTER O 235
    (CHARWD R 0.739)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 235)
+      )
    )
 (CHARACTER O 236
    (CHARWD R 0.62)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 236)
+      )
    )
 (CHARACTER O 237
    (CHARWD R 0.74)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 237)
+      )
    )
 (CHARACTER O 240
    (CHARWD R 0.74)
@@ -8301,6 +8793,9 @@
       (KRN O 51 R -0.055)
       (LIG O 75 C n)
       )
+   (MAP
+      (SETCHAR O 240)
+      )
    )
 (CHARACTER O 241
    (CHARWD R 1.019)
@@ -8309,6 +8804,9 @@
    (COMMENT
       (LIG O 47 O 215)
       (LIG O 140 O 24)
+      )
+   (MAP
+      (SETCHAR O 241)
       )
    )
 (CHARACTER O 242
@@ -8319,17 +8817,26 @@
       (LIG O 47 O 235)
       (LIG O 140 O 25)
       )
+   (MAP
+      (SETCHAR O 242)
+      )
    )
 (CHARACTER O 243
    (CHARWD R 0.255)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.051)
+   (MAP
+      (SETCHAR O 243)
+      )
    )
 (CHARACTER O 244
    (CHARWD R 0.224)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 244)
+      )
    )
 (CHARACTER O 245
    (CHARWD R 0.554)
@@ -8337,6 +8844,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (LIG O 47 O 201)
+      )
+   (MAP
+      (SETCHAR O 245)
       )
    )
 (CHARACTER O 246
@@ -8401,6 +8911,9 @@
       (KRN O 54 R -0.068)
       (KRN O 51 R -0.021)
       )
+   (MAP
+      (SETCHAR O 246)
+      )
    )
 (CHARACTER O 247
    (CHARWD R 0.433)
@@ -8410,11 +8923,17 @@
       (KRN C f R -0.031)
       (KRN O 51 R -0.063)
       )
+   (MAP
+      (SETCHAR O 247)
+      )
    )
 (CHARACTER O 250
    (CHARWD R 0.617)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 250)
+      )
    )
 (CHARACTER O 251
    (CHARWD R 0.286)
@@ -8441,6 +8960,9 @@
       (KRN C L R -0.012)
       (KRN C D R -0.012)
       (KRN O 51 R -0.057)
+      )
+   (MAP
+      (SETCHAR O 251)
       )
    )
 (CHARACTER O 252
@@ -8488,11 +9010,17 @@
       (KRN O 275 R -0.011)
       (KRN C L R -0.026)
       )
+   (MAP
+      (SETCHAR O 252)
+      )
    )
 (CHARACTER O 253
    (CHARWD R 0.48)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 253)
+      )
    )
 (CHARACTER O 254
    (CHARWD R 0.846)
@@ -8529,6 +9057,9 @@
       (KRN C L R -0.033)
       (KRN C D R -0.025)
       (LIG O 75 C N)
+      )
+   (MAP
+      (SETCHAR O 254)
       )
    )
 (CHARACTER O 255
@@ -8615,6 +9146,9 @@
       (KRN O 52 R -0.022)
       (KRN O 51 R -0.068)
       )
+   (MAP
+      (SETCHAR O 255)
+      )
    )
 (CHARACTER O 256
    (CHARWD R 0.314)
@@ -8628,6 +9162,9 @@
       (KRN C D R 0.008)
       (KRN O 51 R -0.045)
       )
+   (MAP
+      (SETCHAR O 256)
+      )
    )
 (CHARACTER O 257
    (CHARWD R 0.255)
@@ -8636,6 +9173,9 @@
    (COMMENT
       (LIG O 47 O 243)
       )
+   (MAP
+      (SETCHAR O 257)
+      )
    )
 (CHARACTER O 260
    (CHARWD R 0.334)
@@ -8643,6 +9183,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (KRN O 57 R -0.293)
+      )
+   (MAP
+      (SETCHAR O 260)
       )
    )
 (CHARACTER O 261
@@ -8677,11 +9220,17 @@
       (KRN C D R 0.01)
       (KRN O 51 R -0.063)
       )
+   (MAP
+      (SETCHAR O 261)
+      )
    )
 (CHARACTER O 262
    (CHARWD R 0.255)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 262)
+      )
    )
 (CHARACTER O 263
    (CHARWD R 0.225)
@@ -8752,6 +9301,9 @@
       (KRN O 51 R -0.027)
       (KRN O 42 R 0.072)
       )
+   (MAP
+      (SETCHAR O 263)
+      )
    )
 (CHARACTER O 264
    (CHARWD R 0.373)
@@ -8759,6 +9311,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (LIG O 47 O 203)
+      )
+   (MAP
+      (SETCHAR O 264)
       )
    )
 (CHARACTER O 265
@@ -8806,11 +9361,17 @@
       (KRN O 54 R -0.094)
       (KRN O 51 R -0.065)
       )
+   (MAP
+      (SETCHAR O 265)
+      )
    )
 (CHARACTER O 266
    (CHARWD R 0.614)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 266)
+      )
    )
 (CHARACTER O 267
    (CHARWD R 0.001)
@@ -8878,23 +9439,35 @@
       (KRN O 52 R -0.051)
       (KRN O 51 R -0.068)
       )
+   (MAP
+      (SETCHAR O 267)
+      )
    )
 (CHARACTER O 270
    (CHARWD R 0.617)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.015)
+   (MAP
+      (SETCHAR O 270)
+      )
    )
 (CHARACTER O 271
    (CHARWD R 0.373)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.02)
+   (MAP
+      (SETCHAR O 271)
+      )
    )
 (CHARACTER O 272
    (CHARWD R 0.602)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 272)
+      )
    )
 (CHARACTER O 273
    (CHARWD R 0.48)
@@ -8903,12 +9476,18 @@
    (COMMENT
       (KRN O 57 R -0.064)
       )
+   (MAP
+      (SETCHAR O 273)
+      )
    )
 (CHARACTER O 274
    (CHARWD R 0.215)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.079)
+   (MAP
+      (SETCHAR O 274)
+      )
    )
 (CHARACTER O 275
    (CHARWD R 0.61)
@@ -8962,6 +9541,9 @@
       (KRN O 51 R -0.059)
       (KRN O 42 R -0.065)
       )
+   (MAP
+      (SETCHAR O 275)
+      )
    )
 (CHARACTER O 276
    (CHARWD R 0.61)
@@ -9014,6 +9596,9 @@
       (KRN O 51 R -0.059)
       (KRN O 42 R -0.065)
       )
+   (MAP
+      (SETCHAR O 276)
+      )
    )
 (CHARACTER O 277
    (CHARWD R 0.215)
@@ -9021,6 +9606,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (LIG O 47 O 274)
+      )
+   (MAP
+      (SETCHAR O 277)
       )
    )
 (CHARACTER O 300
@@ -9030,27 +9618,42 @@
    (COMMENT
       (LIG O 75 O 245)
       )
+   (MAP
+      (SETCHAR O 300)
+      )
    )
 (CHARACTER O 301
    (CHARWD R 0.523)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 301)
+      )
    )
 (CHARACTER O 302
    (CHARWD R 0.523)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 302)
+      )
    )
 (CHARACTER O 303
    (CHARWD R 0.401)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.001)
+   (MAP
+      (SETCHAR O 303)
+      )
    )
 (CHARACTER O 304
    (CHARWD R 0.612)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 304)
+      )
    )
 (CHARACTER O 305
    (CHARWD R 0.613)
@@ -9059,16 +9662,25 @@
    (COMMENT
       (LIG O 75 O 34)
       )
+   (MAP
+      (SETCHAR O 305)
+      )
    )
 (CHARACTER O 306
    (CHARWD R 0.848)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 306)
+      )
    )
 (CHARACTER O 307
    (CHARWD R 0.75)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 307)
+      )
    )
 (CHARACTER O 310
    (CHARWD R 0.58)
@@ -9077,31 +9689,49 @@
    (COMMENT
       (LIG O 75 O 37)
       )
+   (MAP
+      (SETCHAR O 310)
+      )
    )
 (CHARACTER O 311
    (CHARWD R 0.58)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 311)
+      )
    )
 (CHARACTER O 312
    (CHARWD R 0.587)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 312)
+      )
    )
 (CHARACTER O 313
    (CHARWD R 0.603)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 313)
+      )
    )
 (CHARACTER O 314
    (CHARWD R 0.871)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 314)
+      )
    )
 (CHARACTER O 315
    (CHARWD R 0.58)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 315)
+      )
    )
 (CHARACTER O 316
    (CHARWD R 0.53)
@@ -9111,86 +9741,137 @@
       (LIG O 75 C N)
       (LIG O 137 O 36)
       )
+   (MAP
+      (SETCHAR O 316)
+      )
    )
 (CHARACTER O 317
    (CHARWD R 0.58)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 317)
+      )
    )
 (CHARACTER O 320
    (CHARWD R 0.607)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 320)
+      )
    )
 (CHARACTER O 321
    (CHARWD R 0.55)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 321)
+      )
    )
 (CHARACTER O 322
    (CHARWD R 0.698)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 322)
+      )
    )
 (CHARACTER O 323
    (CHARWD R 0.615)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 323)
+      )
    )
 (CHARACTER O 324
    (CHARWD R 0.774)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 324)
+      )
    )
 (CHARACTER O 325
    (CHARWD R 0.643)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 325)
+      )
    )
 (CHARACTER O 326
    (CHARWD R 0.599)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 326)
+      )
    )
 (CHARACTER O 327
    (CHARWD R 0.581)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 327)
+      )
    )
 (CHARACTER O 330
    (CHARWD R 0.87)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 330)
+      )
    )
 (CHARACTER O 331
    (CHARWD R 0.87)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 331)
+      )
    )
 (CHARACTER O 332
    (CHARWD R 0.603)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 332)
+      )
    )
 (CHARACTER O 333
    (CHARWD R 0.779)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 333)
+      )
    )
 (CHARACTER O 334
    (CHARWD R 0.524)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 334)
+      )
    )
 (CHARACTER O 335
    (CHARWD R 0.706)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 335)
+      )
    )
 (CHARACTER O 336
    (CHARWD R 0.782)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 336)
+      )
    )
 (CHARACTER O 337
    (CHARWD R 0.844)
@@ -9215,6 +9896,9 @@
       (KRN O 51 R -0.059)
       (LIG O 75 O 212)
       )
+   (MAP
+      (SETCHAR O 337)
+      )
    )
 (CHARACTER O 340
    (CHARWD R 0.383)
@@ -9229,16 +9913,25 @@
       (LIG O 136 O 206)
       (LIG O 176 O 271)
       )
+   (MAP
+      (SETCHAR O 340)
+      )
    )
 (CHARACTER O 341
    (CHARWD R 0.434)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 341)
+      )
    )
 (CHARACTER O 342
    (CHARWD R 0.464)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 342)
+      )
    )
 (CHARACTER O 343
    (CHARWD R 0.389)
@@ -9247,6 +9940,9 @@
    (COMMENT
       (LIG O 176 C G)
       )
+   (MAP
+      (SETCHAR O 343)
+      )
    )
 (CHARACTER O 344
    (CHARWD R 0.402)
@@ -9254,6 +9950,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (LIG O 267 C D)
+      )
+   (MAP
+      (SETCHAR O 344)
       )
    )
 (CHARACTER O 345
@@ -9264,6 +9963,9 @@
       (LIG O 47 O 252)
       (LIG O 140 O 222)
       )
+   (MAP
+      (SETCHAR O 345)
+      )
    )
 (CHARACTER O 346
    (CHARWD R 0.684)
@@ -9272,11 +9974,17 @@
    (COMMENT
       (LIG O 176 C 9)
       )
+   (MAP
+      (SETCHAR O 346)
+      )
    )
 (CHARACTER O 347
    (CHARWD R 0.57)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 347)
+      )
    )
 (CHARACTER O 350
    (CHARWD R 0.446)
@@ -9285,16 +9993,25 @@
    (COMMENT
       (LIG O 176 O 175)
       )
+   (MAP
+      (SETCHAR O 350)
+      )
    )
 (CHARACTER O 351
    (CHARWD R 0.446)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 351)
+      )
    )
 (CHARACTER O 352
    (CHARWD R 0.499)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 352)
+      )
    )
 (CHARACTER O 353
    (CHARWD R 0.426)
@@ -9304,16 +10021,25 @@
       (LIG O 176 C l)
       (LIG C d C L)
       )
+   (MAP
+      (SETCHAR O 353)
+      )
    )
 (CHARACTER O 354
    (CHARWD R 0.69)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 354)
+      )
    )
 (CHARACTER O 355
    (CHARWD R 0.457)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 355)
+      )
    )
 (CHARACTER O 356
    (CHARWD R 0.475)
@@ -9322,11 +10048,17 @@
    (COMMENT
       (LIG O 137 O 35)
       )
+   (MAP
+      (SETCHAR O 356)
+      )
    )
 (CHARACTER O 357
    (CHARWD R 0.462)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 357)
+      )
    )
 (CHARACTER O 360
    (CHARWD R 0.314)
@@ -9337,6 +10069,9 @@
       (LIG C d O 256)
       (LIG O 267 C r)
       )
+   (MAP
+      (SETCHAR O 360)
+      )
    )
 (CHARACTER O 361
    (CHARWD R 0.286)
@@ -9345,6 +10080,9 @@
    (COMMENT
       (LIG O 176 O 251)
       )
+   (MAP
+      (SETCHAR O 361)
+      )
    )
 (CHARACTER O 362
    (CHARWD R 0.615)
@@ -9352,6 +10090,9 @@
    (CHARDP R 0.2)
    (COMMENT
       (LIG O 176 O 231)
+      )
+   (MAP
+      (SETCHAR O 362)
       )
    )
 (CHARACTER O 363
@@ -9364,11 +10105,17 @@
       (LIG O 140 C Y)
       (LIG O 136 O 173)
       )
+   (MAP
+      (SETCHAR O 363)
+      )
    )
 (CHARACTER O 364
    (CHARWD R 0.69)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 364)
+      )
    )
 (CHARACTER O 365
    (CHARWD R 0.443)
@@ -9377,11 +10124,17 @@
    (COMMENT
       (LIG O 176 O 246)
       )
+   (MAP
+      (SETCHAR O 365)
+      )
    )
 (CHARACTER O 366
    (CHARWD R 0.541)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 366)
+      )
    )
 (CHARACTER O 367
    (CHARWD R 0.433)
@@ -9390,21 +10143,33 @@
    (COMMENT
       (LIG O 176 O 247)
       )
+   (MAP
+      (SETCHAR O 367)
+      )
    )
 (CHARACTER O 370
    (CHARWD R 0.798)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 370)
+      )
    )
 (CHARACTER O 371
    (CHARWD R 0.727)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 371)
+      )
    )
 (CHARACTER O 372
    (CHARWD R 0.446)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 372)
+      )
    )
 (CHARACTER O 373
    (CHARWD R 0.672)
@@ -9413,11 +10178,17 @@
    (COMMENT
       (LIG O 47 C h)
       )
+   (MAP
+      (SETCHAR O 373)
+      )
    )
 (CHARACTER O 374
    (CHARWD R 0.48)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 374)
+      )
    )
 (CHARACTER O 375
    (CHARWD R 0.617)
@@ -9428,11 +10199,17 @@
       (LIG O 140 O 250)
       (LIG O 136 O 224)
       )
+   (MAP
+      (SETCHAR O 375)
+      )
    )
 (CHARACTER O 376
    (CHARWD R 0.516)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 376)
+      )
    )
 (CHARACTER O 377
    (CHARWD R 0.61)
@@ -9488,5 +10265,8 @@
       (LIG O 140 O 275)
       (LIG O 75 O 232)
       (LIG O 136 O 211)
+      )
+   (MAP
+      (SETCHAR O 377)
       )
    )
