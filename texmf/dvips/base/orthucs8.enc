@@ -21,6 +21,9 @@
 % omega + ostreco
 % i + czazqesj
 % ljudi + dobrotitlo
+% LIGKERN parenleft parenright =: comma ;
+% LIGKERN quoteleft parenleft =: comma ;
+%% LIGKERN afii10077 d := L ;
 % Onszirj + pridyh
 % Omega + veljvozglas
 % rci + titlo
@@ -33,6 +36,7 @@
 % titlo + on
 % titlo + slovo
 % titlo + dobro
+%% LIGKERN seven afii10069 := d
 % estj + ostreco
 % titlo + glagol
 % jery + ostreco
