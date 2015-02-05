@@ -22,6 +22,9 @@
    (FONTDSIZE R 10.0)
    )
 (LIGTABLE
+   (LABEL O 3) (comment ljudy_pod_vzmetom[03])
+   (LIG O 344 C L) (comment ljudi_pod_vzmetom[03] + dobro[e4] -> ljudi_pod_dobrotitlom[4c])
+   (STOP)
    (LABEL O 223)
    (KRN C m R -0.018)
    (KRN C l R -0.022)
@@ -1647,9 +1650,10 @@
    (LABEL O 350)
    (LIG O 176 O 175)
    (STOP)
-   (LABEL O 353)
+   (LABEL O 353) (comment ljudi[eb])
    (LIG O 176 C l)
    (LIG C d C L)
+   (LIG O 134 O 3) (comment backslash[5c] ljudi_pod_vzmetom[03])
    (STOP)
    (LABEL C o)
    (LABEL O 356)
@@ -1878,7 +1882,7 @@
    (KRN O 52 R -0.022)
    (KRN O 51 R -0.068)
    (STOP)
-   (LABEL O 134)
+   (LABEL O 134) (comment backslash[5c])
    (KRN C m R -0.031)
    (KRN C l R -0.03)
    (KRN C k R -0.03)
@@ -4123,6 +4127,12 @@
    (LIG O 75 O 232)
    (LIG O 136 O 211)
    (STOP)
+   )
+(CHARACTER O 03
+   (CHARWD R 0.0)
+   (MAP
+      (SETCHAR O 03)
+      )
    )
 (CHARACTER O 16
    (CHARWD R 0.215)
