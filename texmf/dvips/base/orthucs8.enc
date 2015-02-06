@@ -92,10 +92,26 @@
 % az + titlo
 % i + pridyhostreco
 % i + pridyh
+
+% ---
+% pod vzmetom
+% а
+% г
+% ж
+% и
+% к
+% м
+% н
+% о
+% П
+% у
+% Ц
+% Ч
+
 /OrtUCS8ToT2AEncoding [
-% 0 0 0
+% 0 0 0 = v\ w\ W\ б\ в\ д\ з\ л\
  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
-% 10 8 8
+% 10 8 8 = М\ п\ р\ т\ ц\ ч\
  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /J /afii61369
 % 20 10 16
  /afii61368 /afii61367 /afii61366 /afii61365 /afii61364 /afii61363 /afii61362 /afii61361

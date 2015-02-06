@@ -22,9 +22,33 @@
    (FONTDSIZE R 10.0)
    )
 (LIGTABLE
-   (LABEL O 3) (comment ljudy_pod_vzmetom[03])
-   (LIG O 344 C L) (comment ljudi_pod_vzmetom[03] + dobro[e4] -> ljudi_pod_dobrotitlom[4c])
+   (LABEL O 0) (comment v\ (ижица-под-взметом)[00])
+   (LIG O 343 O 220) (comment -> v\г [90])
    (STOP)
+   (LABEL O 1) (comment w\ (омега-под-взметом)[01])
+   (LIG O 362 C t) (comment -> w\т [74])
+   (STOP)
+   (LABEL O 2) (comment W\ (ОМЕГА-под-взметом)[02])
+   (LIG O 362 C T) (comment -> W\т [54])
+   (STOP)
+   (LABEL O 3) (comment б\ (букы-под-взметом)[03])
+   (LABEL O 4) (comment в\ (веде-под-взметом)[04])
+   (LABEL O 5) (comment д\ (добро-под-взметом)[05])
+   (LIG O 361 C D) (comment -> д\с [44])
+   (STOP)
+   (LABEL O 6) (comment з\ (земля-под-взметом)[06])
+   (LABEL O 7) (comment л\ (люди-под-взметом)[07])
+   (LIG O 344 C L) (comment -> л\д [4C])
+   (STOP)
+   (LABEL O 10) (comment М\ (МЫСЛЕТЕ-под-взметом)[08])
+   (LABEL O 11) (comment п\ (покой-под-взметом)[09])
+   (LABEL O 12) (comment р\ (рцы-под-взметом)[0A])
+   (LIG O 361 C r) (comment -> р\с [72])
+   (LIG O 344 O 256) (comment -> р\д [AE])
+   (STOP)
+   (LABEL O 13) (comment т\ (твердо-под-взметом)[0B])
+   (LABEL O 14) (comment ц\ (цы-под-взметом)[0C])
+   (LABEL O 15) (comment ч\ (червь-под-взметом)[0D])
    (LABEL O 223)
    (KRN C m R -0.018)
    (KRN C l R -0.022)
@@ -1445,7 +1469,7 @@
    (KRN O 223 R -0.061)
    (LIG O 42 C M)
    (STOP)
-   (LABEL C W)
+   (LABEL C W) (comment -> W (ОМЕГА)[57])
    (KRN C f R -0.031)
    (KRN O 51 R -0.063)
    (KRN C q R -0.015)
@@ -1478,6 +1502,7 @@
    (KRN O 223 R -0.015)
    (LIG O 75 O 214)
    (LIG O 32 C T)
+   (LIG O 134 O 2) (comment -> W\ [02])
    (STOP)
    (LABEL C X)
    (KRN O 252 R 0.01)
@@ -1636,8 +1661,9 @@
    (LABEL O 343)
    (LIG O 176 C G)
    (STOP)
-   (LABEL O 344)
+   (LABEL O 344) (comment д (добро)[E4])
    (LIG O 267 C D)
+   (LIG O 134 O 5) (comment -> д\ [05])
    (STOP)
    (LABEL C e)
    (LABEL O 345)
@@ -1650,20 +1676,21 @@
    (LABEL O 350)
    (LIG O 176 O 175)
    (STOP)
-   (LABEL O 353) (comment ljudi[eb])
+   (LABEL O 353) (comment л (люди)[EB])
    (LIG O 176 C l)
    (LIG C d C L)
-   (LIG O 134 O 3) (comment backslash[5c] ljudi_pod_vzmetom[03])
+   (LIG O 134 O 7) (comment л\ [07])
    (STOP)
    (LABEL C o)
    (LABEL O 356)
    (LIG O 137 O 35)
    (STOP)
    (LABEL C p)
-   (LABEL O 360)
+   (LABEL O 360) (comment р (рцы)[F0])
    (LIG O 176 C R)
    (LIG C d O 256)
    (LIG O 267 C r)
+   (LIG O 134 O 12) (comment -> р\ [0A])
    (STOP)
    (LABEL C c)
    (LABEL O 361)
@@ -1882,7 +1909,7 @@
    (KRN O 52 R -0.022)
    (KRN O 51 R -0.068)
    (STOP)
-   (LABEL O 134) (comment backslash[5c])
+   (LABEL O 134) (comment (палка/backslash)[5c])
    (KRN C m R -0.031)
    (KRN C l R -0.03)
    (KRN C k R -0.03)
@@ -3942,7 +3969,7 @@
    (LIG C w C q)
    (LIG C W C Q)
    (STOP)
-   (LABEL C v)
+   (LABEL C v) (comment v (ижица)[76])
    (KRN C q R -0.048)
    (KRN O 240 R -0.048)
    (KRN C l R -0.014)
@@ -3989,8 +4016,9 @@
    (LIG O 47 O 200)
    (LIG O 136 O 233)
    (LIG C g O 220)
+   (LIG O 134 O 0) (comment -> v\ [00])
    (STOP)
-   (LABEL C w)
+   (LABEL C w) (comment w (омега)[77])
    (KRN C q R -0.033)
    (KRN O 240 R -0.033)
    (KRN C m R -0.008)
@@ -4040,6 +4068,7 @@
    (LIG O 47 O 202)
    (LIG O 75 O 234)
    (LIG O 32 C t)
+   (LIG O 134 O 1) (comment -> w\ [01])
    (STOP)
    (LABEL C x)
    (KRN C l R -0.016)
@@ -4128,10 +4157,74 @@
    (LIG O 136 O 211)
    (STOP)
    )
+(CHARACTER O 00
+   (MAP
+      (SETCHAR O 00)
+      )
+   )
+(CHARACTER O 01
+   (MAP
+      (SETCHAR O 01)
+      )
+   )
+(CHARACTER O 02
+   (MAP
+      (SETCHAR O 02)
+      )
+   )
 (CHARACTER O 03
-   (CHARWD R 0.0)
    (MAP
       (SETCHAR O 03)
+      )
+   )
+(CHARACTER O 04
+   (MAP
+      (SETCHAR O 04)
+      )
+   )
+(CHARACTER O 05
+   (MAP
+      (SETCHAR O 05)
+      )
+   )
+(CHARACTER O 06
+   (MAP
+      (SETCHAR O 06)
+      )
+   )
+(CHARACTER O 07
+   (MAP
+      (SETCHAR O 07)
+      )
+   )
+(CHARACTER O 10
+   (MAP
+      (SETCHAR O 10)
+      )
+   )
+(CHARACTER O 11
+   (MAP
+      (SETCHAR O 11)
+      )
+   )
+(CHARACTER O 12
+   (MAP
+      (SETCHAR O 12)
+      )
+   )
+(CHARACTER O 13
+   (MAP
+      (SETCHAR O 13)
+      )
+   )
+(CHARACTER O 14
+   (MAP
+      (SETCHAR O 14)
+      )
+   )
+(CHARACTER O 15
+   (MAP
+      (SETCHAR O 15)
       )
    )
 (CHARACTER O 16
