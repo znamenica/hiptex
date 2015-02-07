@@ -1,0 +1,530 @@
+---
+groups:
+   up:
+    - 'А'
+    - 'Б'
+    - 'В'
+    - 'Г'
+    - 'Д'
+    - 'Е'
+    - 'Ж'
+    - 'З'
+    - 'И'
+    - 'К'
+    - 'Л'
+    - 'М'
+    - 'Н'
+    - 'О'
+    - 'П'
+    - 'Р'
+    - 'С'
+    - 'Т'
+    - 'У'
+    - 'Ф'
+    - 'Х'
+    - 'Ц'
+    - 'Ч'
+    - 'Ш'
+    - 'Щ'
+    - 'Ъ'
+    - 'Ы'
+    - 'Ь'
+    - 'Э'
+    - 'Ю'
+    - 'Я'
+    - 'W'
+    - 'I'
+    - 'V'
+    - '<I>'
+chars:
+   J:
+      hip: 'i`'
+   space:
+      hip: ' '
+   exclam:
+      hip: "!"
+   quotedbl:
+      newhip: '<">'
+   quotedblbase:
+      hip: '<,,>'
+   quotedblleft:
+      hip: '<``>'
+   quotedblright:
+      hip: "<''>"
+   numbersign:
+      hip: '='
+      preg: up
+   dollar:
+      hip: "='"
+      preg: up
+   percent:
+      hip: '=`'
+      preg: up
+   ampersand:
+      hip: '~'
+      preg: up
+   one:
+      hip: "'"
+   parenleft:
+      hip: '('
+   parenright:
+      hip: ')'
+   asterisk:
+      hip: '*'
+   plus:
+      hip: '\в'
+   comma:
+      hip: ','
+   hyphen:
+      hip: '_'
+   period:
+      hip: '.'
+   slash:
+      hip: '/'
+   zero:
+      hip: "о'"
+      skip: true
+   quotesinglebase:
+      hip: '<,>'
+   quoteleft:
+      hip: '<`>'
+   quoteright:
+      hip: "<'>"
+   y:
+      hip: "у'"
+   equal:
+      hip: '\н'
+   four:
+      hip: "='"
+   five:
+      hip: '=`'
+   asciicircum:
+      hip: '^'
+      preg: up
+   asciitilde:
+      hip: "'"
+      preg: up
+   eight:
+      hip: '\ъ'
+   nine:
+      hip: 'ж~'
+   colon:
+      hip: ':'
+   semicolon:
+      hip: ';'
+   less:
+      hip: '\х'
+   three:
+      hip: '='
+   greater:
+      hip: '\р'
+   question:
+      hip: '\ч'
+   at:
+      hip: '`'
+      preg: up
+   D:
+      hip: 'д\с'
+   F:
+      hip: 'F'
+   G:
+      hip: 'г~'
+      skip: true
+   I:
+      hip: 'I'
+   L:
+      hip: 'л\д'
+   M:
+      hip: 'V"'
+   N:
+      hip: '_О='
+   Q:
+      hip: '_W'
+   R:
+      hip: 'р~'
+   afii10054:
+      hip: 'S'
+   T:
+      hip: 'W\т'
+   U:
+      hip: 'О_у'
+   V:
+      hip: 'V'
+   W:
+      hip: 'W'
+   X:
+      hip: '_КС'
+   Y:
+      hip: 'у`'
+   afii10049:
+      hip:
+       - 'JA'
+       - 'Jа'
+   bracketleft:
+      hip: <[>
+   backslash:
+      hip: ~
+      pre: 'w\т'
+   bracketright:
+      hip: '<]>' 
+   six:
+      hip: '^'
+   underscore:
+      hip: '\ъ'
+      preg: up
+   two:
+      hip: '`'
+   b:
+      hip: '\о'
+   d:
+      hip: '\д'
+   f:
+      hip: 'f'
+   g:
+      hip: '\г'
+   h:
+      hip: "ы'"
+      skip: true
+   afii10103:
+      hip: 'i'
+   k:
+      hip: 'jа='
+   l:
+      hip: 'л~'
+      skip: maybe
+   m:
+      hip: 'v"'
+   n:
+      hip: '_о='
+   q:
+      hip: '_w'
+   r:
+      hip: 'р\с'
+      skip: true
+   afii10102:
+      hip: 's'
+   t:
+      hip: 'w\т'
+   u:
+      hip: 'о_у'
+   v:
+      hip: 'v'
+   w:
+      hip: 'w'
+   x:
+      hip: '_кс'
+   afii10097:
+      hip: 'jа'
+   braceleft:
+      hip: 'у^'
+   bar:
+      hip: 'я=`'
+      skip: true
+   braceright:
+      hip: 'и~'
+   seven:
+      hip: '~'
+   P:
+      hip: '_ПС'
+   afii10051:
+      hip: "v'"
+   afii10052:
+      hip: "А='"
+   H:
+      hip: "w'"
+      skip: true
+   afii10100:
+      hip: "а='"
+      skip: true
+   C:
+      hip: '\с'
+      preg: up
+   ellipsis:
+      hip: '_кс~'
+   dagger:
+      hip: 'а^'
+      skip: true
+   daggerdbl:
+      hip: 'i^'
+      skip: true
+   j:
+      hip: "i'"
+   perthousand:
+      hip: 'я^'
+      skip: true
+   afii10058:
+      hip: 'Я^'
+   guilsinglleft:
+      hip: 'i~'
+   afii10059:
+      hip: 'W='
+   afii10061:
+      hip: "О_у='"
+      skip: true
+   afii10060:
+      hip:
+       - "JА='"
+       - "Ja='"
+   afii10145:
+      hip: "_О='"
+   afii10099:
+      hip: 'v\г'
+   K:
+      hip:
+       - 'JА='
+       - 'Ja='
+   E:
+      hip: 'е`'
+      skip: true
+   A:
+      hip: 'а`'
+      skip: true
+   B:
+      hip: 'jь^'
+   bullet:
+      hip: '\ж'
+   endash:
+      hip: '<->'
+   emdash:
+      newhip: '<-->'
+   p:
+      hip: '_пс'
+   trademark:
+      hip: 'т~'
+   afii10106:
+      hip: 'я='
+      skip: true
+   guilsinglright:
+      hip: 'v^'
+      skip: true
+   afii10107:
+      hip: 'w='
+      skip: true
+   afii10109:
+      hip: "о_у='"
+      skip: true
+   afii10108:
+      hip: "jа='"
+      skip: true
+   afii10193:
+      hip: "_о='"
+      skip: true
+   o:
+      hip: '_о'
+   afii10062:
+      hip: 'О_у='
+      skip: true
+   afii10110:
+      hip: 'о_у='
+      skip: true
+   afii10057:
+      hip: "I='"
+      skip: true
+   currency:
+      hip: '#'
+   afii10050:
+      hip: 'А='
+   brokenbar:
+      hip: 'х~'
+      skip: true
+   section:
+      hip: 'ч~'
+      skip: maybe
+   afii10023:
+      hip: 'jь`'
+   copyright:
+      hip: 'с~'
+      skip: maybe
+   e:
+      hip: "e'"
+      skip: true
+   guillemotleft:
+      hip: '<((>'
+   O:
+      hip: '_О'
+   a:
+      hip: "а'"
+      skip: true
+   registered:
+      hip: 'р\д'
+      skip: true
+   afii10056:
+      hip: 'I='
+   degree:
+      hip: '@'
+   plusminus:
+      hip: 'jа=`'
+      skip: true
+   afii10055:
+      hip: '_I'
+   i:
+      hip: '_i'
+   afii10098:
+      hip: 'а='
+      skip: true
+   mu:
+      hip: '_у'
+   paragraph:
+      hip: '<пгф>'
+   c:
+      hip: '\с'
+   afii10071:
+      hip: "jь'"
+   afii61352:
+      hip: 'а~'
+      skip: true
+   afii10101:
+      hip: '_е'
+   guillemotright:
+      hip: '<))>'
+   afii10105:
+      hip: "i='"
+   S:
+      hip: 'я`'
+      skip: true
+   s:
+      hip: "я'"
+      skip: true
+   afii10104:
+      hip: 'i='
+   afii10017:
+      hip: 'А'
+   afii10018:
+      hip: 'Б'
+   afii10019:
+      hip: 'В'
+   afii10020:
+      hip: 'Г'
+   afii10021:
+      hip: 'Д'
+   afii10022:
+      hip: 'Е'
+   afii10024:
+      hip: 'Ж'
+   afii10025:
+      hip: 'З'
+   afii10026:
+      hip: 'И'
+   afii10027:
+      hip: 'Й'
+   afii10028:
+      hip: 'К'
+   afii10029:
+      hip: 'Л'
+   afii10030:
+      hip: 'М'
+   afii10031:
+      hip: 'Н'
+   afii10032:
+      hip: 'О'
+   afii10033:
+      hip: 'П'
+   afii10034:
+      hip: 'Р'
+   afii10035:
+      hip: 'С'
+   afii10036:
+      hip: 'Т'
+   afii10037:
+      hip: 'У'
+   afii10038:
+      hip: 'Ф'
+   afii10039:
+      hip: 'Х'
+   afii10040:
+      hip: 'Ц'
+   afii10041:
+      hip: 'Ч'
+   afii10042:
+      hip: 'Ш'
+   afii10043:
+      hip: 'Щ'
+   afii10044:
+      hip: 'Ъ'
+   afii10045:
+      hip: 'Ы'
+   afii10046:
+      hip: 'Ь'
+   afii10047:
+      hip:
+       - 'JЬ'
+       - 'Jь'
+   afii10048:
+      hip: 'Ю'
+   Z:
+      hip: 'Я'
+   afii10065:
+      hip: 'а'
+   afii10066:
+      hip: 'б'
+   afii10067:
+      hip: 'в'
+   afii10068:
+      hip: 'г'
+   afii10069:
+      hip: 'д'
+   afii10070:
+      hip: 'е'
+   afii10072:
+      hip: 'ж'
+   afii10073:
+      hip: 'з'
+   afii10074:
+      hip: 'и'
+   afii10075:
+      hip: 'й'
+   afii10076:
+      hip: 'к'
+   afii10077:
+      hip: 'л'
+   afii10078:
+      hip: 'м'
+   afii10079:
+      hip: 'н'
+   afii10080:
+      hip: 'о'
+   afii10081:
+      hip: 'п'
+   afii10082:
+      hip: 'р'
+   afii10083:
+      hip: 'с'
+   afii10084:
+      hip: 'т'
+   afii10085:
+      hip: 'у'
+   afii10086:
+      hip: 'ф'
+   afii10087:
+      hip: 'х'
+   afii10088:
+      hip: 'ц'
+   afii10089:
+      hip: 'ч'
+   afii10090:
+      hip: 'ш'
+   afii10091:
+      hip: 'щ'
+   afii10092:
+      hip: 'ъ'
+   afii10093:
+      hip: 'ы'
+   afii10094:
+      hip: 'ь'
+   afii10095:
+      hip: 'jь'
+   afii10096:
+      hip: 'ю'
+   z:
+      hip: 'я'
+   periodcentered:
+      hip: '<.>'
+   logicalnot:
+   sfthypen:
+      newhip: '<&>'
+   Euro:
+      hip: '\з'
+   afii10053:
+      newhip: '(/)'
+   grave:
+      hip: '$'
