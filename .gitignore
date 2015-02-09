@@ -4,3 +4,4 @@
 **/*.vf
 texmf/fonts/tfm/
 texmf/fonts/vf/
+.bundle
