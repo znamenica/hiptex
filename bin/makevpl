@@ -3,13 +3,22 @@
 require 'yaml'
 Bundler.require :default
 
-settings = YAML.load( IO.read( 'irmucsv.yml' ) )
+class Object
+   def try method, *args
+      if self.respond_to? method
+         self.send(method, *args)
+      else
+         nil ; end ; end ; end
 
-hips = settings[ 'chars' ].to_a.map do |c|
+settings = YAML.load( IO.read( 'irmucsv_full.yml' ) )
+
+hips = Hash[ settings[ 'chars' ].to_a.map do |c|
    hip = c[ 1 ][ 'hip' ]
+   if !hip
+      next ; end
    c[ 1 ][ 'paths' ] = (hip.size - 1).times.to_a.map { |i| hip[0..i] }
    c[ 1 ] && !c[ 1 ][ 'skip' ] && [ hip, c ]
-   end.select{ |c| c[ 0 ] }.to_h
+   end.select{ |c| c && c[ 0 ] } ]
 
 # ЧИНИ find dupes in hips
 
@@ -45,7 +54,7 @@ File.open('hips.tex', 'w') do |f|
 #
 # open .vpl
 
-srcvpl = IO.read 'texmf/fonts/vpl/hiptex/irmucsv.vpl'
+srcvpl = IO.read 'texmf/fonts/vpl/hiptex/irmucsv.vpl.in'
 
 # grep KRN from LIGTABLE section
 #
@@ -63,7 +72,7 @@ srcvpl.each_line do |l|
    elsif l =~ /CHARACTER (.) ([^)]+)/
       chars[ i ] = char if mode == :character
       mode = :character
-      char = ''
+      char = {}
       i = ($1 == 'C') && $2.ord || $2.to_i(8)
    elsif mode == :ligtable
       if l =~ /LABEL (.) ([^)]+)/
@@ -75,7 +84,8 @@ srcvpl.each_line do |l|
       elsif l =~ /KRN/
          label << l ; end 
    elsif mode == :character
-      char << l
+      if l =~ /(CHARWD|CHARHT|CHARDP|CHARIC) R ([\d\-\.]+)\)/
+         char[ $1 ] = $2 ; end
    else
       head << l ; end ; end
 
@@ -89,11 +99,18 @@ ucs8map = {}
 hips.each { |hip, (_, d)| ucs8map[ d[ 'ucs8' ] ]= hip }
 # and non-exist char with pathed to ligatures
 hips.each do |hip, (_, d)|
-   d[ 'paths' ].each do |path|
-      if !ucs8map.key( path )
+   ( d[ 'paths' ].dup << hip ).each do |path|
+      def validate_ucs8_char ucs8map, char
+         if ucs8map.key( char )
+            return ; end
          free_idx = ( (0..255).to_a - ucs8map.keys ).first
-         ucs8map[ free_idx ]= path ; end ; end ; end
+         if !free_idx
+            $stderr.puts "There are no free placeholders. Exiting..." ; exit(1) ; end
 
+         ucs8map[ free_idx ]= char ; end
+
+      validate_ucs8_char ucs8map, path[-1]
+      validate_ucs8_char ucs8map, path ; end ; end
 
 # Update ligature table
 ligs = {}
@@ -101,28 +118,49 @@ hips.each do |hip, (_, d)|
    ( d[ 'paths' ].dup << hip )[1..-1].each do |path|
       char = ucs8map.key( path[-1] )
       base = ucs8map.key( path[0..-2] )
-      lig = [ char, ucs8map.key( path ) ]
+      to = ucs8map.key( path )
+      if !char
+         $stderr.puts "Char '#{path[-1]}' has no placeholder for ligature '#{path}'" ; end
+      if !to
+         $stderr.puts "Ligature '#{path}' has no placeholder" ; end
+      lig = [ char, to ]
       ligs[ base ] ||= []
       if !ligs[ base ].include?( lig )
          ligs[ base ] << lig ; end ; end ; end
+
 #
-#
-File.open( 'irmucsvn.vpl', 'w' ) do |f|
+File.open( 'texmf/fonts/vpl/hiptex/irmucsv.vpl', 'w' ) do |f|
    f.puts head
    f.puts '(LIGTABLE'
-   ligs.each do |lig, links|
-      f.puts "   (LABEL O #{lig.to_s(8)})"
+   ligs.keys.sort.each do |lig|
+      links = ligs[ lig ]
+      hip = hips[ ucs8map[ lig ] ]
+      f.puts "   (LABEL O #{lig.to_s(8)}) (comment #{hip && hip[ 0 ]})"
       links.each do |link|
-         f.puts "   (LIG O #{link[0].to_s(8)} O #{link[1].to_s(8)})" ; end
+         hipc = link.map {|x| hips[ ucs8map[ x ] ] }
+         f.puts "   (LIG O #{link[0].to_s(8)} O #{link[1].to_s(8)}) (comment + #{hipc[0] && hipc[0][0]} -> #{hipc[1] && hipc[1][0]})" ; end
       f.puts "   (STOP)" ; end
    f.puts '   )'
    ucs8map.keys.sort.each do |code|
       f.puts "(CHARACTER O #{code.to_s(8)}"
-      if chars[ code ]
-         f.puts chars[ code ]
+#      p code
+#      p chars[ code ]
+      if !chars[ code ].empty?
+         f.puts chars[ code ].to_a.map {|(k,v)| "   (#{k} R #{v})" }.join("\n")
       else
-         f.puts '   (CHARWD R 0)'
-         f.puts '   )' ; end ; end ; end
-
-# binding.pry
+         f.puts '   (CHARWD R 0)' ; end
+      if ucs8map[ code ].size == 1
+         char = hips[ ucs8map[ code ] ]
+#         p "CODE #{ucs8map[ code ]}, ORD: #{ucs8map[ code ].ord}"
+         ord = char && char[ 1 ][ 'tex' ] || ucs8map[ code ].ord
+         if ord > 0xFF
+            $stderr.puts "Char #{ucs8map[ code ]} has no defined tex value" ; end
+         f.puts "   (MAP\n" \
+                "      (SETCHAR O #{ord.to_s(8)})\n" \
+                "      )\n" ; end
+         comment = hips[ ucs8map[ code ] ] && hips[ ucs8map[ code ] ][ 0 ] || ucs8map[ code ].gsub(/[\(\)<>]/,'_')
+         if comment
+            f.puts "   (comment #{comment})" ; end
+#      p '-'*80
+      f.puts '   )' ; end ; end
 

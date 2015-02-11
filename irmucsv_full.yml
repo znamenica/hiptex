@@ -1,6 +1,6 @@
 ---
 aliases:
-   'JA': 'Ja'
+   'JА': 'Jа'
    'JЬ': 'Jь'
 groups:
    up:
@@ -42,489 +42,892 @@ groups:
 chars:
    J:
       hip: 'i`'
-   space:
+      ucs8: 0x4a
+   пробѣлъ:
+      abobe_name: space
       hip: ' '
-   exclam:
+      ucs8: 0x20
+   воскликъ:
+      abobe_name: exclam
       hip: "!"
-   quotedbl:
+      ucs8: 0x21
+   кавычка_сдвоена:
+      abobe_name: quotedbl
       newhip: '<">'
+      ucs8: 0x22
    quotedblbase:
       hip: '<,,>'
+      ucs8: 0x84
    quotedblleft:
       hip: '<``>'
+      ucs8: 0x93
    quotedblright:
       hip: "<''>"
+      ucs8: 0x94
    numbersign:
       hip: '='
       preg: up
+      ucs8: 0x23
    dollar:
       hip: "='"
       preg: up
+      ucs8: 0x24
    percent:
       hip: '=`'
       preg: up
+      ucs8: 0x25
    ampersand:
       hip: '~'
       preg: up
+      ucs8: 0x26
    one:
       hip: "'"
-   parenleft:
+      ucs8: 0x31
+   скобица_лева:
+      abobe_name: parenleft
       hip: '('
-   parenright:
+      ucs8: 0x28
+   скобица_права:
+      abobe_name: parenright
       hip: ')'
+      ucs8: 0x29
    asterisk:
       hip: '*'
+      ucs8: 0x2a
    plus:
       hip: '\в'
-   comma:
+      ucs8: 0x2b
+   запята:
+      abobe_name: comma
       hip: ','
+      ucs8: 0x2c
    hyphen:
       hip: '_'
-   period:
+      ucs8: 0x2d
+   точка:
+      abobe_name: period
       hip: '.'
-   slash:
+      ucs8: 0x2e
+   черта:
+      abobe_name: slash
       hip: '/'
+      ucs8: 0x2f
    zero:
       hip: "о'"
       skip: true
+      ucs8: 0x30
+   quotesingle:
+      ucs8: 0x27
    quotesinglebase:
       hip: '<,>'
+      ucs8: 0x82
    quoteleft:
       hip: '<`>'
+      ucs8: 0x91
    quoteright:
       hip: "<'>"
+      ucs8: 0x92
    y:
       hip: "у'"
+      ucs8: 0x79
    equal:
       hip: '\н'
+      ucs8: 0x3d
    four:
       hip: "='"
+      ucs8: 0x34
    five:
       hip: '=`'
+      ucs8: 0x35
    asciicircum:
       hip: '^'
       preg: up
+      ucs8: 0x5e
    asciitilde:
       hip: "'"
       preg: up
+      ucs8: 0x7e
    eight:
       hip: '\ъ'
+      ucs8: 0x38
    nine:
       hip: 'ж~'
-   colon:
+      ucs8: 0x39
+   двоеточие:
+      abobe_name: colon
       hip: ':'
-   semicolon:
+      ucs8: 0x3a
+   точка_запятна:
+      abobe_name: semicolon
       hip: ';'
+      ucs8: 0x3b
    less:
       hip: '\х'
-   three:
+      ucs8: 0x3c
+   тончица:
+      abobe_name: three
       hip: '='
+      ucs8: 0x33
    greater:
       hip: '\р'
+      ucs8: 0x3e
    question:
       hip: '\ч'
+      ucs8: 0x3f
    at:
       hip: '`'
       preg: up
+      ucs8: 0x40
    D:
       hip: 'д\с'
-   F:
+      ucs8: 0x44
+   ѲИТА:
+      abobe_name: F
       hip: 'F'
+      ucs8: 0x46
    G:
       hip: 'г~'
       skip: true
-   I:
+      ucs8: 0x47
+   І:
+      abobe_name: I
       hip: 'I'
+      ucs8: 0x49
    L:
       hip: 'л\д'
+      ucs8: 0x4c
    M:
       hip: 'V"'
+      ucs8: 0x4d
    N:
       hip: '_О='
+      ucs8: 0x4e
    Q:
       hip: '_W'
+      ucs8: 0x51
    R:
       hip: 'р~'
-   afii10054:
+      ucs8: 0x52
+   ЅѢЛѠ:
+      abobe_name: afii10054
       hip: 'S'
-   T:
+      ucs8: 0xbd
+      tex: 0x53
+   ѾЪ:
+      abobe_name: T
       hip: 'W\т'
-   U:
+      ucs8: 0x54
+   ОНѴКъ:
+      abobe_name: U
       hip: 'О_у'
-   V:
+      ucs8: 0x55
+   ѴЖИЦА:
+      abobe_name: V
       hip: 'V'
-   W:
+      ucs8: 0x56
+   ѠМЕГА:
+      abobe_name: W
       hip: 'W'
-   X:
+      ucs8: 0x57
+   ѮИ:
+      abobe_name: X
       hip: '_КС'
+      ucs8: 0x58
    Y:
       hip: 'у`'
-   afii10049:
+      ucs8: 0x59
+   Ꙗзъ:
+      abobe_name: afii10049
       hip: 'Jа'
+      ucs8: 0xdf
    bracketleft:
       hip: '<[>'
       skip: true
+      ucs8: 0x5b
    backslash:
       hip: ~
       pre: 'w\т'
+      ucs8: 0x5c
    bracketright:
       hip: '<]>' 
       skip: true
-   six:
+      ucs8: 0x5d
+   возгласъ:
+      abobe_name: six
       hip: '^'
+      ucs8: 0x36
    underscore:
       hip: '\ъ'
       preg: up
-   two:
+      ucs8: 0x5f
+   чяжесь:
+      abobe_name: two
       hip: '`'
+      ucs8: 0x32
    b:
       hip: '\о'
+      ucs8: 0x62
    d:
       hip: '\д'
-   f:
+      ucs8: 0x64
+   ѳита:
+      abobe_name: f
       hip: 'f'
+      ucs8: 0x66
    g:
       hip: '\г'
+      ucs8: 0x67
    h:
       hip: "ы'"
       skip: true
-   afii10103:
+      ucs8: 0x68
+   і:
+      abobe_name: afii10103
       hip: 'i'
+      ucs8: 0xb3
    k:
       hip: 'jа='
+      ucs8: 0x6b
    l:
       hip: 'л~'
       skip: maybe
+      ucs8: 0x6c
    m:
       hip: 'v"'
+      ucs8: 0x6d
    n:
       hip: '_о='
-   q:
+      ucs8: 0x6e
+   ѡмега_широка:
+      abobe_name: q
       hip: '_w'
+      ucs8: 0x71
    r:
       hip: 'р\с'
       skip: true
-   afii10102:
+      ucs8: 0x72
+   ѕѣлѡ:
+      abobe_name: afii10102
       hip: 's'
-   t:
+      ucs8: 0xbe
+      tex: 0x73
+   ѿъ:
+      abobe_name: t
       hip: 'w\т'
-   u:
+      ucs8: 0x74
+   онѵкъ:
+      abobe_name: u
       hip: 'о_у'
-   v:
+      ucs8: 0x75
+   ѵжица:
+      abobe_name: v
       hip: 'v'
-   w:
+      ucs8: 0x76
+   ѡмега:
+      abobe_name: w
       hip: 'w'
-   x:
+      ucs8: 0x77
+   ѯи:
+      abobe_name: x
       hip: '_кс'
-   afii10097:
+      ucs8: 0x78
+   ꙗзъ:
+      abobe_name: afii10097
       hip: 'jа'
+      ucs8: 0xff
    braceleft:
       hip: 'у^'
+      ucs8: 0x7b
    bar:
       hip: 'я=`'
       skip: true
+      ucs8: 0x7c
    braceright:
       hip: 'и~'
-   seven:
+      ucs8: 0x7d
+   титло:
+      abobe_name: seven
       hip: '~'
-   P:
+      ucs8: 0x37
+   ѰИ:
+      abobe_name: P
       hip: '_ПС'
+      ucs8: 0x50
    afii10051:
       hip: "v'"
       skip: true
+      ucs8: 0x80
    afii10052:
       hip: "А='"
+      ucs8: 0x81
    H:
       hip: "w'"
       skip: true
+      ucs8: 0x48
    afii10100:
       hip: "а='"
       skip: true
+      ucs8: 0x83
    C:
       hip: '\с'
       preg: up
+      ucs8: 0x43
    ellipsis:
       hip: '_кс~'
+      ucs8: 0x85
    dagger:
       hip: 'а^'
       skip: true
+      ucs8: 0x86
    daggerdbl:
       hip: 'i^'
+      ucs8: 0x87
    j:
       hip: "i'"
+      ucs8: 0x6a
    perthousand:
       hip: 'я^'
       skip: true
+      ucs8: 0x89
    afii10058:
       hip: 'Я^'
+      ucs8: 0x8a
    guilsinglleft:
       hip: 'i~'
+      ucs8: 0x8b
    afii10059:
       hip: 'W='
+      ucs8: 0x8c
    afii10061:
       hip: "О_у='"
+      ucs8: 0x8d
    afii10060:
-      hip: "Ja='"
+      hip: "Jа='"
+      ucs8: 0x8e
    afii10145:
       hip: "_О='"
+      ucs8: 0x8f
    afii10099:
       hip: 'v\г'
+      ucs8: 0x90
+      skip: true
    K:
-      hip: 'Ja='
+      hip: 'Jа='
+      ucs8: 0x4b
    E:
       hip: 'е`'
+      ucs8: 0x45
       skip: true
    A:
       hip: 'а`'
       skip: true
+      ucs8: 0x41
    B:
       hip: 'jь^'
+      ucs8: 0x42
    bullet:
       hip: '\ж'
+      ucs8: 0x95
    endash:
       hip: '<->'
+      ucs8: 0x96
    emdash:
       newhip: '<-->'
-   p:
+      ucs8: 0x97
+   ѱи:
+      adobe_name: p
       hip: '_пс'
+      ucs8: 0x70
    trademark:
       hip: 'т~'
+      ucs8: 0x99
    afii10106:
       hip: 'я='
       skip: true
+      ucs8: 0x9a
    guilsinglright:
       hip: 'v^'
       skip: true
+      ucs8: 0x9b
    afii10107:
       hip: 'w='
       skip: true
+      ucs8: 0x9c
    afii10109:
       hip: "о_у='"
       skip: true
+      ucs8: 0x9d
    afii10108:
       hip: "jа='"
       skip: true
+      ucs8: 0x9e
    afii10193:
       hip: "_о='"
       skip: true
-   o:
+      ucs8: 0x9f
+   онъ_широкъ:
+      adobe_name: o
       hip: '_о'
+      ucs8: 0x6f
    afii10062:
       hip: 'О_у='
       skip: true
+      ucs8: 0xa1
    afii10110:
       hip: 'о_у='
       skip: true
+      ucs8: 0xa2
    afii10057:
       hip: "I='"
       skip: true
-   currency:
+      ucs8: 0xa3
+   тысячник:
+      adobe_name: currency
       hip: '#'
+      ucs8: 0xa4
    afii10050:
       hip: 'А='
+      ucs8: 0xa5
    brokenbar:
       hip: 'х~'
       skip: true
+      ucs8: 0xa6
    section:
       hip: 'ч~'
       skip: maybe
+      ucs8: 0xa7
    afii10023:
       hip: 'jь`'
       skip: true
+      ucs8: 0xa8
    copyright:
       hip: 'с~'
       skip: maybe
+      ucs8: 0xa9
    e:
       hip: "e'"
       skip: true
+      ucs8: 0x65
    guillemotleft:
       hip: '<((>'
-   O:
+      ucs8: 0xab
+   ОНЪ_ШИРОКЪ:
+      adobe_name: O
       hip: '_О'
+      ucs8: 0x4f
    a:
       hip: "а'"
       skip: true
+      ucs8: 0x61
    registered:
       hip: 'р\д'
       skip: true
+      ucs8: 0xae
    afii10056:
       hip: 'I='
-   degree:
+      ucs8: 0xaf
+   кавыка:
+      adobe_name: degree
       hip: '@'
+      ucs8: 0xb0
    plusminus:
       hip: 'jа=`'
       skip: true
+      ucs8: 0xb1
    afii10055:
       hip: '_I'
+      ucs8: 0xb2
    i:
       hip: '_i'
+      ucs8: 0x69
    afii10098:
       hip: 'а='
       skip: true
-   mu:
+      ucs8: 0xb4
+   укъ:
+      adobe_name: mu
       hip: '_у'
-   paragraph:
+      ucs8: 0xb5
+   параграфъ:
+      adobe_name: paragraph
       hip: '<пгф>'
       skip: true
+      ucs8: 0xb6
    c:
       hip: '\с'
+      ucs8: 0x63
    afii10071:
       hip: "jь'"
       skip: true
+      ucs8: 0xb8
    afii61352:
       hip: 'а~'
       skip: true
-   afii10101:
+      ucs8: 0xb9
+   ЕСТЬ_ШИРОКЪ:
+      adobe_name: afii10101
       hip: '_е'
+      ucs8: 0xba
    guillemotright:
       hip: '<))>'
       skip: true
+      ucs8: 0xbb
    afii10105:
       hip: "i='"
+      ucs8: 0xbc
    S:
       hip: 'я`'
       skip: true
+      ucs8: 0x53
    s:
       hip: "я'"
       skip: true
+      ucs8: 0x73
    afii10104:
       hip: 'i='
-   afii10017:
+      ucs8: 0xbf
+   АЗЪ:
+      adobe_name: afii10017
       hip: 'А'
-   afii10018:
+      ucs8: 0xc0
+      tex: 0xc0
+   БУКЫ:
+      adobe_name: afii10018
       hip: 'Б'
-   afii10019:
+      ucs8: 0xc1
+      tex: 0xc1
+   ВѢДѢ:
+      adobe_name: afii10019
       hip: 'В'
-   afii10020:
+      ucs8: 0xc2
+      tex: 0xc2
+   ГЛАГОЛИ:
+      adobe_name: afii10020
       hip: 'Г'
-   afii10021:
+      ucs8: 0xc3
+      tex: 0xc3
+   ДОБРО:
+      adobe_name: afii10021
       hip: 'Д'
-   afii10022:
+      ucs8: 0xc4
+      tex: 0xc4
+   ЕСТЬ:
+      adobe_name: afii10022
       hip: 'Е'
-   afii10024:
+      ucs8: 0xc5
+      tex: 0xc5
+   ЖИВЕТЕ:
+      adobe_name: afii10024
       hip: 'Ж'
-   afii10025:
+      ucs8: 0xc6
+      tex: 0xc6
+   ЗЕМЛѦ:
+      adobe_name: afii10025
       hip: 'З'
-   afii10026:
+      ucs8: 0xc7
+      tex: 0xc7
+   ИЖЕ:
+      adobe_name: afii10026
       hip: 'И'
-   afii10027:
+      ucs8: 0xc8
+      tex: 0xc8
+   Й:
+      adobe_name: afii10027
       hip: 'Й'
-   afii10028:
+      ucs8: 0xc9
+      tex: 0xc9
+   КАКО:
+      adobe_name: afii10028
       hip: 'К'
-   afii10029:
+      ucs8: 0xca
+      tex: 0xc9
+   ЛѴДІѤ:
+      adobe_name: afii10029
       hip: 'Л'
-   afii10030:
+      ucs8: 0xcb
+      tex: 0xc9
+   МЫСЛѢТЕ:
+      adobe_name: afii10030
       hip: 'М'
-   afii10031:
+      ucs8: 0xcc
+      tex: 0xc9
+   НАШЪ:
+      adobe_name: afii10031
       hip: 'Н'
-   afii10032:
+      ucs8: 0xcd
+      tex: 0xc9
+   ОНЪ:
+      adobe_name: afii10032
       hip: 'О'
-   afii10033:
+      ucs8: 0xce
+      tex: 0xc9
+   ПОКОЙ:
+      adobe_name: afii10033
       hip: 'П'
-   afii10034:
+      ucs8: 0xcf
+      tex: 0xc9
+   РЦЫ:
+      adobe_name: afii10034
       hip: 'Р'
-   afii10035:
+      ucs8: 0xd0
+      tex: 0xd0
+   СЛОВО:
+      adobe_name: afii10035
       hip: 'С'
-   afii10036:
+      ucs8: 0xd1
+      tex: 0xd1
+   ТВЕРДО:
+      adobe_name: afii10036
       hip: 'Т'
-   afii10037:
+      ucs8: 0xd2
+      tex: 0xd2
+   ОНѴКЪ:
+      adobe_name: afii10037
       hip: 'У'
-   afii10038:
+      ucs8: 0xd3
+      tex: 0xd3
+   ФЕРТЪ:
+      adobe_name: afii10038
       hip: 'Ф'
-   afii10039:
+      ucs8: 0xd4
+      tex: 0xd4
+   ХѢРЪ:
+      adobe_name: afii10039
       hip: 'Х'
-   afii10040:
+      ucs8: 0xd5
+      tex: 0xd5
+   ЦЫ:
+      adobe_name: afii10040
       hip: 'Ц'
-   afii10041:
+      ucs8: 0xd6
+      tex: 0xd6
+   ЧЕРВЬ:
+      adobe_name: afii10041
       hip: 'Ч'
-   afii10042:
+      ucs8: 0xd7
+      tex: 0xd7
+   ША:
+      adobe_name: afii10042
       hip: 'Ш'
-   afii10043:
+      ucs8: 0xd8
+      tex: 0xd8
+   ЩА:
+      adobe_name: afii10043
       hip: 'Щ'
-   afii10044:
+      ucs8: 0xd9
+      tex: 0xd9
+   ѤРЪ:
+      adobe_name: afii10044
       hip: 'Ъ'
-   afii10045:
+      ucs8: 0xda
+      tex: 0xda
+   ѤРЫ:
+      adobe_name: afii10045
       hip: 'Ы'
-   afii10046:
+      ucs8: 0xdb
+      tex: 0xdb
+   ѤРЬ:
+      adobe_name: afii10046
       hip: 'Ь'
-   afii10047:
+      ucs8: 0xdc
+      tex: 0xdc
+   ѢДЬ:
+      adobe_name: afii10047
       hip: 'Jь'
-   afii10048:
+      ucs8: 0xdd
+      tex: 0xdd
+   ЮСЪ:
+      adobe_name: afii10048
       hip: 'Ю'
-   Z:
+      ucs8: 0xde
+      tex: 0xde
+   ЮСЪ_МАЛЪ:
+      adobe_name: Z
       hip: 'Я'
-   afii10065:
+      ucs8: 0x5a
+      tex: 0xdf
+   азъ:
+      adobe_name: afii10065
       hip: 'а'
-   afii10066:
+      ucs8: 0xe0
+      tex: 0xe0
+   букы:
+      adobe_name: afii10066
       hip: 'б'
-   afii10067:
+      ucs8: 0xe1
+      tex: 0xe1
+   вѣдѣ:
+      adobe_name: afii10067
       hip: 'в'
-   afii10068:
+      ucs8: 0xe2
+      tex: 0xe2
+   глаголи:
+      adobe_name: afii10068
       hip: 'г'
-   afii10069:
+      ucs8: 0xe3
+      tex: 0xe3
+   добро:
+      adobe_name: afii10069
       hip: 'д'
-   afii10070:
+      ucs8: 0xe4
+      tex: 0xe4
+   есть:
+      adobe_name: afii10070
       hip: 'е'
-   afii10072:
+      ucs8: 0xe5
+      tex: 0xe5
+   живете:
+      adobe_name: afii10072
       hip: 'ж'
-   afii10073:
+      ucs8: 0xe6
+      tex: 0xe6
+   землѧ:
+      adobe_name: afii10073
       hip: 'з'
-   afii10074:
+      ucs8: 0xe7
+      tex: 0xe7
+   иже:
+      adobe_name: afii10074
       hip: 'и'
-   afii10075:
+      ucs8: 0xe8
+      tex: 0xe8
+   й:
+      adobe_name: afii10075
       hip: 'й'
-   afii10076:
+      ucs8: 0xe9
+      tex: 0xe9
+   како:
+      adobe_name: afii10076
       hip: 'к'
-   afii10077:
+      ucs8: 0xea
+      tex: 0xea
+   лѵдіѥ:
+      adobe_name: afii10077
       hip: 'л'
-   afii10078:
+      ucs8: 0xeb
+      tex: 0xeb
+   мыслѣте:
+      adobe_name: afii10078
       hip: 'м'
-   afii10079:
+      ucs8: 0xec
+      tex: 0xec
+   нашъ:
+      adobe_name: afii10079
       hip: 'н'
-   afii10080:
+      ucs8: 0xed
+      tex: 0xed
+   онъ:
+      adobe_name: afii10080
       hip: 'о'
-   afii10081:
+      ucs8: 0xee
+      tex: 0xee
+   покой:
+      adobe_name: afii10081
       hip: 'п'
-   afii10082:
+      ucs8: 0xef
+      tex: 0xef
+   рцы:
+      adobe_name: afii10082
       hip: 'р'
-   afii10083:
+      ucs8: 0xf0
+      tex: 0xf0
+   слово:
+      adobe_name: afii10083
       hip: 'с'
-   afii10084:
+      ucs8: 0xf1
+      tex: 0xf1
+   твердо:
+      adobe_name: afii10084
       hip: 'т'
-   afii10085:
+      ucs8: 0xf2
+      tex: 0xf2
+   онѵкъ:
+      adobe_name: afii10085
       hip: 'у'
-   afii10086:
+      ucs8: 0xf3
+      tex: 0xf3
+   фертъ:
+      adobe_name: afii10086
       hip: 'ф'
-   afii10087:
+      ucs8: 0xf4
+      tex: 0xf4
+   хѣръ:
+      adobe_name: afii10087
       hip: 'х'
-   afii10088:
+      ucs8: 0xf5
+      tex: 0xf5
+   цы:
+      adobe_name: afii10088
       hip: 'ц'
-   afii10089:
+      ucs8: 0xf6
+      tex: 0xf6
+   червь:
+      adobe_name: afii10089
       hip: 'ч'
-   afii10090:
+      ucs8: 0xf7
+      tex: 0xf7
+   ша:
+      adobe_name: afii10090
       hip: 'ш'
-   afii10091:
+      ucs8: 0xf8
+      tex: 0xf8
+   ща:
+      adobe_name: afii10091
       hip: 'щ'
-   afii10092:
+      ucs8: 0xf9
+      tex: 0xf9
+   ѥръ:
+      adobe_name: afii10092
       hip: 'ъ'
-   afii10093:
+      ucs8: 0xfa
+      tex: 0xfa
+   ѥры:
+      adobe_name: afii10093
       hip: 'ы'
-   afii10094:
+      ucs8: 0xfb
+      tex: 0xfb
+   ѥрь:
+      adobe_name: afii10094
       hip: 'ь'
-   afii10095:
+      ucs8: 0xfc
+      tex: 0xfc
+   ѣдь:
+      adobe_name: afii10095
       hip: 'jь'
-   afii10096:
+      ucs8: 0xfd
+      tex: 0xfd
+   юсъ:
+      adobe_name: afii10096
       hip: 'ю'
-   z:
+      ucs8: 0xfe
+      tex: 0xfe
+   юсъ_малъ:
+      adobe_name: z
       hip: 'я'
+      ucs8: 0x7a
+      tex: 0xff
    periodcentered:
       hip: '<.>'
+      ucs8: 0xb7
    logicalnot:
+      newhip: '-,'
+      ucs8: 0xac
    sfthypen:
       newhip: '<&>'
+      ucs8: 0xad
    Euro:
       hip: '\з'
+      ucs8: 0x88
    afii10053:
       newhip: '(/)'
-   grave:
+      ucs8: 0xaa
+   густецо:
+      adobe_name: grave
       hip: '$'
+      ucs8: 0x60
+   итожникъ:
+      adobe_name: plus
+      utf8: '+'
+   палка:
+      adobe_name: backslash
+      utf8: '\'
