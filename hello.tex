@@ -1,0 +1,161 @@
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[UCS8]{fontenc}
+%\usepackage[churchslavonic]{babel}
+\usepackage{stringenc}
+
+\makeatletter
+\renewcommand*{\UTFviii@defined}[1]{%
+     \ifx#1\relax
+   \begingroup
+   % Remove prefix "\u8:"
+   \def\x##1:{}%
+   % Extract Unicode char from command name
+   % (utf8.def does not support surrogates)
+   \edef\x{\expandafter\x\string#1}%
+   \StringEncodingConvert\x\x{utf8}{utf16be}% convert to UTF-16BE
+   % Hexadecimal representation
+   \EdefEscapeHex\x\x
+   % Enhanced error message
+   \PackageError{inputenc}{Unicode\space char\space \string#1\space
+   (U+\x)\MessageBreak
+   not\space set\space up\space
+   for\space use\space with\space LaTeX}\@eha
+   \endgroup
+   \else\expandafter
+   #1%
+   \fi
+   }
+\makeatother
+
+\newcommand\spc[1]{%
+   \symbol{`\\}% the backslash
+     #1% the letter
+   }
+
+\def\^^d0#1{\spc{^^d0#1}}
+\def\^^d1#1{\spc{^^d1#1}}
+
+% UCS8
+%\DeclareUnicodeCharacter{006A}{\char17} % j
+%\DeclareUnicodeCharacter{0053}{\char192} % ЅѢЛѠ
+%\DeclareUnicodeCharacter{0073}{\char192} % ѕѣлѡ
+%\DeclareUnicodeCharacter{0046}{\char192} % ѲИТА
+%\DeclareUnicodeCharacter{0066}{\char192} % ѳита
+%\DeclareUnicodeCharacter{0056}{\char192} % ѴЖИЦА
+%\DeclareUnicodeCharacter{0076}{\char192} % ѵжица
+\DeclareUnicodeCharacter{0410}{\char192} % АЗЪ
+\DeclareUnicodeCharacter{0411}{\char193} % БУКЫ
+\DeclareUnicodeCharacter{0412}{\char194} % ВѢДѢ
+\DeclareUnicodeCharacter{0413}{\char195} % ГЛАГОЛИ
+\DeclareUnicodeCharacter{0414}{\char196} % ДОБРО
+\DeclareUnicodeCharacter{0415}{\char197} % ЕСТЬ
+\DeclareUnicodeCharacter{0416}{\char198} % ЖИВЕТЕ
+\DeclareUnicodeCharacter{0417}{\char199} % ЗЕМЛѦ
+\DeclareUnicodeCharacter{0418}{\char200} % ИЖЕ
+\DeclareUnicodeCharacter{0419}{\char201} % Й
+\DeclareUnicodeCharacter{041A}{\char202} % КАКО
+\DeclareUnicodeCharacter{041B}{\char203} % ЛѴДІѤ
+\DeclareUnicodeCharacter{041C}{\char204} % МЫСЛѢТЕ
+\DeclareUnicodeCharacter{041D}{\char205} % НАШЪ
+\DeclareUnicodeCharacter{041E}{\char206} % ОНЪ
+\DeclareUnicodeCharacter{041F}{\char207} % ПОКОЙ
+\DeclareUnicodeCharacter{0420}{\char208} % РЦЫ
+\DeclareUnicodeCharacter{0421}{\char209} % СЛОВО
+\DeclareUnicodeCharacter{0422}{\char210} % ТВЕРДО
+\DeclareUnicodeCharacter{0423}{\char211} % ОНѴКЪ
+\DeclareUnicodeCharacter{0424}{\char212} % ФЕРТЪ
+\DeclareUnicodeCharacter{0425}{\char213} % ХѢРЪ
+\DeclareUnicodeCharacter{0426}{\char214} % ЦЫ
+\DeclareUnicodeCharacter{0427}{\char215} % ЧЕРВЬ
+\DeclareUnicodeCharacter{0428}{\char216} % ША
+\DeclareUnicodeCharacter{0429}{\char217} % ЩА
+\DeclareUnicodeCharacter{042A}{\char218} % ѤРЪ
+\DeclareUnicodeCharacter{042B}{\char219} % ѤРЫ
+\DeclareUnicodeCharacter{042C}{\char220} % ѤРЬ
+\DeclareUnicodeCharacter{042D}{\char221} % ѢДЬ
+\DeclareUnicodeCharacter{042E}{\char222} % ЮСЪ
+\DeclareUnicodeCharacter{042F}{\char223} % Ꙗ
+\DeclareUnicodeCharacter{0430}{\char224} % азъ
+\DeclareUnicodeCharacter{0431}{\char225} % букы
+\DeclareUnicodeCharacter{0432}{\char226} % вѣдѣ
+\DeclareUnicodeCharacter{0433}{\char227} % глаголи
+\DeclareUnicodeCharacter{0434}{\char228} % добро
+\DeclareUnicodeCharacter{0435}{\char229} % есть
+\DeclareUnicodeCharacter{0436}{\char230} % живете
+\DeclareUnicodeCharacter{0437}{\char231} % землѧ
+\DeclareUnicodeCharacter{0438}{\char232} % иже
+\DeclareUnicodeCharacter{0439}{\char233} % й
+\DeclareUnicodeCharacter{043A}{\char234} % како
+\DeclareUnicodeCharacter{043B}{\char235} % лѵдіѥ
+\DeclareUnicodeCharacter{043C}{\char236} % мыслѣте
+\DeclareUnicodeCharacter{043D}{\char237} % нашъ
+\DeclareUnicodeCharacter{043E}{\char238} % онъ
+\DeclareUnicodeCharacter{043F}{\char239} % покой
+\DeclareUnicodeCharacter{0440}{\char240} % рцы
+\DeclareUnicodeCharacter{0441}{\char241} % слово
+\DeclareUnicodeCharacter{0442}{\char242} % твердо
+\DeclareUnicodeCharacter{0443}{\char243} % онѵкъ
+\DeclareUnicodeCharacter{0444}{\char244} % фертъ
+\DeclareUnicodeCharacter{0445}{\char245} % хѣръ
+\DeclareUnicodeCharacter{0446}{\char246} % цы
+\DeclareUnicodeCharacter{0447}{\char247} % червь
+\DeclareUnicodeCharacter{0448}{\char248} % ша
+\DeclareUnicodeCharacter{0449}{\char249} % ща
+\DeclareUnicodeCharacter{044A}{\char250} % ѥръ
+\DeclareUnicodeCharacter{044B}{\char251} % ѥры
+\DeclareUnicodeCharacter{044C}{\char252} % ѥрь
+\DeclareUnicodeCharacter{044D}{\char253} % ѣдь
+\DeclareUnicodeCharacter{044E}{\char254} % юсъ
+\DeclareUnicodeCharacter{044F}{\char255} % ꙗ
+
+
+% cancel std catcodes
+\catcode94 = 12 % asciicircum
+\catcode95 = 12 % underscore
+%\catcode126 = 12
+
+%\fontsize{50}{60}
+
+
+\begin{document}
+
+\huge
+---
+
+% <::слав>
+
+б в г д ж s з й к л м н п р с т ф х w\т ц ч ш щ f s v
+
+а а= а' а=' а=` а^
+
+_е _е= _е' _е=' _е=` _е^
+
+е е' е` е^ <е>
+
+и и= и' и=' и=` и^
+
+i i= i' i=' i=` i^ 
+
+о о о' о` о^
+
+_о= _о=' _о=` <о>
+
+у у' у` у^
+
+_у <у>
+
+о_у о_у= о_у=' о_у=` о<у>
+
+w w' w` w= w=' w=` w^ <w>
+
+ъ ы ы' ы` ь
+
+jь jь' jь` jь= jь=' jь=` jь^
+
+я я' я` я= я=' я=` я^
+
+_i <i>
+
+\end{document}
