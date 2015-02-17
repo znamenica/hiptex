@@ -1,5 +1,1 @@
-izhitsacs IzhitsaCS "IzhitsaToT2AEncoding ReEncodeFont" <izhitsat2a.enc <<izhitsacs.pfb
-pochucs Pochaevsk-Ucs "OrtUCS8ToT2AEncoding ReEncodeFont" <orthucs8.enc <<pochucs.pfb
-irmucs Irmologion-Ucs "OrtUCS8ToT2AEncoding ReEncodeFont" <orthucs8.enc <<irmucs.pfb
-orthucs8 Orthodox_ps-Ucs8 "OrtUCS8ToT2AEncoding ReEncodeFont" <orthucs8.enc <<orthucs8.pfb
-orthucs8c Orthodox_ps-Ucs8-Caps "OrtUCS8ToT2AEncoding ReEncodeFont" <orthucs8.enc <<orthucs8c.pfb
+irmucsv Irmologion-Ucs "UCS8Encoding"

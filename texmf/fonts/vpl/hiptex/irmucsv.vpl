@@ -23,358 +23,331 @@
    )
 (LIGTABLE
    (LABEL O 0) (comment )
-   (LIG O 54 O 1) (comment + запята -> )
-   (LIG O 62 O 4) (comment + чяжесь -> )
-   (LIG O 176 O 6) (comment + asciitilde -> )
-   (LIG O 25 O 26) (comment +  -> )
-   (LIG O 50 O 30) (comment + скобица_лева -> )
-   (LIG O 56 O 32) (comment + точка -> )
+   (LIG O 345 O 1) (comment + есть[е] -> ЕСТЬ_ШИРОКЪ[_е])
+   (LIG O 316 O 2) (comment + ОНЪ[О] -> ОНЪ_ШИРОКЪ[_О])
+   (LIG O 312 O 12) (comment + КАКО[К] -> )
+   (LIG O 317 O 14) (comment + ПОКОЙ[П] -> )
+   (LIG O 356 O 16) (comment + онъ[о] -> онъ_широкъ[_о])
+   (LIG O 363 O 21) (comment + онѵкъ[у] -> укъ[_у])
+   (LIG O 167 O 26) (comment + ѡмега[w] -> ѡмега_широка[_w])
+   (LIG O 352 O 27) (comment + како[к] -> )
+   (LIG O 357 O 31) (comment + покой[п] -> )
    (STOP)
-   (LABEL O 1) (comment )
-   (LIG O 54 O 2) (comment + запята -> )
-   (LIG O 3 O 202) (comment +  -> quotesinglebase)
-   (STOP)
-   (LABEL O 2) (comment )
-   (LIG O 3 O 204) (comment +  -> quotedblbase)
-   (STOP)
-   (LABEL O 4) (comment )
-   (LIG O 62 O 5) (comment + чяжесь -> )
-   (LIG O 3 O 221) (comment +  -> quoteleft)
+   (LABEL O 3) (comment )
+   (LIG O 363 O 4) (comment + онѵкъ[у] -> ОНУКъ[О_у])
    (STOP)
    (LABEL O 5) (comment )
-   (LIG O 3 O 223) (comment +  -> quotedblleft)
+   (LIG O 342 O 33) (comment + вѣдѣ[в] -> взмѣтнъ_вѣдѣ[\в])
+   (LIG O 343 O 34) (comment + глаголи[г] -> взмѣтнъ_глаголи[\г])
+   (LIG O 344 O 35) (comment + добро[д] -> взмѣтно_добро[\д])
+   (LIG O 346 O 36) (comment + живете[ж] -> взмѣтно_живете[\ж])
+   (LIG O 347 O 37) (comment + землѧ[з] -> взмѣтна_земля[\з])
+   (LIG O 355 O 42) (comment + нашъ[н] -> взмѣтнъ_нашъ[\н])
+   (LIG O 356 O 45) (comment + онъ[о] -> взмѣтнъ_онъ[\о])
+   (LIG O 360 O 46) (comment + рцы[р] -> взмѣтно_рци[\р])
+   (LIG O 361 O 53) (comment + слово[с] -> взмѣтно_слово[\с])
+   (LIG O 365 O 55) (comment + хѣръ[х] -> взмѣтнъ_хѣръ[\х])
+   (LIG O 367 O 60) (comment + червь[ч] -> взмѣтнъ_червь[\ч])
+   (LIG O 372 O 61) (comment + ѥръ[ъ] -> взмѣтнъ_ъръ[\ъ])
    (STOP)
    (LABEL O 6) (comment )
-   (LIG O 176 O 7) (comment + asciitilde -> )
-   (LIG O 3 O 222) (comment +  -> quoteright)
-   (STOP)
-   (LABEL O 7) (comment )
-   (LIG O 3 O 224) (comment +  -> quotedblright)
+   (LIG O 362 O 7) (comment + твердо[т] -> ѾЪ[W\т])
    (STOP)
    (LABEL O 10) (comment )
-   (LIG O 342 O 53) (comment + вѣдѣ -> plus)
-   (LIG O 355 O 75) (comment + нашъ -> equal)
-   (LIG O 372 O 137) (comment + ѥръ -> underscore)
-   (LIG O 365 O 74) (comment + хѣръ -> less)
-   (LIG O 360 O 76) (comment + рцы -> greater)
-   (LIG O 367 O 77) (comment + червь -> question)
-   (LIG O 356 O 142) (comment + онъ -> b)
-   (LIG O 344 O 144) (comment + добро -> d)
-   (LIG O 343 O 147) (comment + глаголи -> g)
-   (LIG O 361 O 143) (comment + слово -> c)
-   (LIG O 346 O 225) (comment + живете -> bullet)
-   (LIG O 347 O 210) (comment + землѧ -> Euro)
-   (STOP)
-   (LABEL O 11) (comment )
-   (LIG O 361 O 104) (comment + слово -> D)
+   (LIG O 374 O 335) (comment + ѥрь[ь] -> ѢДЬ[Jь])
+   (LIG O 340 O 11) (comment + азъ[а] -> Ꙗзъ[Jа])
    (STOP)
    (LABEL O 12) (comment )
-   (LIG O 344 O 114) (comment + добро -> L)
+   (LIG O 321 O 13) (comment + СЛОВО[С] -> ѮИ[_КС])
    (STOP)
    (LABEL O 14) (comment )
-   (LIG O 362 O 124) (comment + твердо -> ѾЪ)
-   (STOP)
-   (LABEL O 15) (comment )
-   (LIG O 363 O 125) (comment + онѵкъ -> ОНѴКъ)
-   (STOP)
-   (LABEL O 16) (comment )
-   (LIG O 321 O 130) (comment + СЛОВО -> ѮИ)
+   (LIG O 321 O 15) (comment + СЛОВО[С] -> ѰИ[_ПС])
    (STOP)
    (LABEL O 17) (comment )
-   (LIG O 340 O 337) (comment + азъ -> Ꙗзъ)
-   (LIG O 374 O 335) (comment + ѥрь -> ѢДЬ)
-   (STOP)
-   (LABEL O 20) (comment )
-   (LIG O 340 O 377) (comment + азъ -> ꙗзъ)
-   (LIG O 374 O 375) (comment + ѥрь -> ѣдь)
-   (STOP)
-   (LABEL O 21) (comment )
-   (LIG O 362 O 164) (comment + твердо -> ѿъ)
+   (LIG O 363 O 20) (comment + онѵкъ[у] -> онукъ[о_у])
    (STOP)
    (LABEL O 22) (comment )
-   (LIG O 361 O 170) (comment + слово -> ѯи)
-   (STOP)
-   (LABEL O 23) (comment )
-   (LIG O 321 O 120) (comment + СЛОВО -> ѰИ)
+   (LIG O 362 O 23) (comment + твердо[т] -> ѿъ[w\т])
    (STOP)
    (LABEL O 24) (comment )
-   (LIG O 176 O 215) (comment + asciitilde -> afii10061)
-   (STOP)
-   (LABEL O 26) (comment )
-   (LIG O 3 O 226) (comment +  -> endash)
+   (LIG O 374 O 375) (comment + ѥрь[ь] -> ѣдь[jь])
+   (LIG O 340 O 25) (comment + азъ[а] -> ꙗзъ[jа])
    (STOP)
    (LABEL O 27) (comment )
-   (LIG O 361 O 160) (comment + слово -> ѱи)
-   (STOP)
-   (LABEL O 30) (comment )
-   (LIG O 50 O 31) (comment + скобица_лева -> )
+   (LIG O 361 O 30) (comment + слово[с] -> ѯи[_кс])
    (STOP)
    (LABEL O 31) (comment )
-   (LIG O 3 O 253) (comment +  -> guillemotleft)
+   (LIG O 361 O 32) (comment + слово[с] -> ѱи[_пс])
    (STOP)
-   (LABEL O 32) (comment )
-   (LIG O 3 O 267) (comment +  -> periodcentered)
+   (LABEL O 62) (comment )
+   (LIG O 56 O 63) (comment + тъчка[.] -> )
+   (LIG O 66 O 67) (comment +  -> )
+   (LIG O 54 O 71) (comment + запята[,] -> )
+   (LIG O 140 O 76) (comment + чяжесь[`] -> )
+   (LIG O 47 O 101) (comment + острецо['] -> )
    (STOP)
-   (LABEL O 55) (comment hyphen)
-   (LIG O 316 O 117) (comment + ОНЪ -> ОНЪ_ШИРОКЪ)
-   (LIG O 127 O 121) (comment + ѠМЕГА -> Q)
-   (LIG O 312 O 16) (comment + КАКО -> )
-   (LIG O 356 O 157) (comment + онъ -> онъ_широкъ)
-   (LIG O 167 O 161) (comment + ѡмега -> ѡмега_широка)
-   (LIG O 352 O 22) (comment + како -> )
-   (LIG O 317 O 23) (comment + ПОКОЙ -> )
-   (LIG O 357 O 27) (comment + покой -> )
-   (LIG O 111 O 262) (comment + І -> afii10055)
-   (LIG O 263 O 151) (comment + і -> i)
-   (LIG O 363 O 265) (comment + онѵкъ -> укъ)
-   (LIG O 345 O 272) (comment + есть -> ЕСТЬ_ШИРОКЪ)
+   (LABEL O 63) (comment )
+   (LIG O 64 O 65) (comment +  -> бодъка[_._])
    (STOP)
-   (LABEL O 63) (comment тончица)
-   (LIG O 176 O 64) (comment + asciitilde -> four)
-   (LIG O 62 O 65) (comment + чяжесь -> five)
+   (LABEL O 67) (comment )
+   (LIG O 64 O 70) (comment +  -> отчертјє[_-_])
    (STOP)
-   (LABEL O 111) (comment І)
-   (LIG O 63 O 257) (comment + тончица -> afii10056)
+   (LABEL O 71) (comment )
+   (LIG O 64 O 74) (comment +  -> кавычка_нижня[_,_])
+   (LIG O 54 O 103) (comment + запята[,] -> )
    (STOP)
-   (LABEL O 113) (comment K)
-   (LIG O 176 O 216) (comment + asciitilde -> afii10060)
+   (LABEL O 76) (comment )
+   (LIG O 64 O 77) (comment +  -> кавычка_лева[_`_])
+   (LIG O 140 O 105) (comment + чяжесь[`] -> )
    (STOP)
-   (LABEL O 116) (comment N)
-   (LIG O 176 O 217) (comment + asciitilde -> afii10145)
+   (LABEL O 101) (comment )
+   (LIG O 64 O 102) (comment +  -> кавычка_права[_'_])
+   (LIG O 47 O 110) (comment + острецо['] -> )
    (STOP)
-   (LABEL O 117) (comment ОНЪ_ШИРОКЪ)
-   (LIG O 63 O 116) (comment + тончица -> N)
+   (LABEL O 103) (comment )
+   (LIG O 64 O 104) (comment +  -> кавычка_сдвоена_нижня[_,,_])
    (STOP)
-   (LABEL O 125) (comment ОНѴКъ)
-   (LIG O 63 O 24) (comment + тончица -> )
+   (LABEL O 105) (comment )
+   (LIG O 64 O 107) (comment +  -> кавычка_сдвоена_лева[_``_])
    (STOP)
-   (LABEL O 126) (comment ѴЖИЦА)
-   (LIG O 13 O 115) (comment +  -> M)
+   (LABEL O 110) (comment )
+   (LIG O 64 O 112) (comment +  -> кавычка_сдвоена_права[_''_])
    (STOP)
    (LABEL O 127) (comment ѠМЕГА)
-   (LIG O 10 O 14) (comment +  -> )
-   (LIG O 63 O 214) (comment + тончица -> afii10059)
-   (STOP)
-   (LABEL O 132) (comment ЮСЪ_МАЛЪ)
-   (LIG O 66 O 212) (comment + возгласъ -> afii10058)
-   (STOP)
-   (LABEL O 157) (comment онъ_широкъ)
-   (LIG O 63 O 156) (comment + тончица -> n)
-   (STOP)
-   (LABEL O 166) (comment ѵжица)
-   (LIG O 13 O 155) (comment +  -> m)
+   (LIG O 5 O 6) (comment +  -> )
    (STOP)
    (LABEL O 167) (comment ѡмега)
-   (LIG O 10 O 21) (comment +  -> )
-   (STOP)
-   (LABEL O 170) (comment ѯи)
-   (LIG O 67 O 205) (comment + титло -> ellipsis)
-   (STOP)
-   (LABEL O 245) (comment afii10050)
-   (LIG O 176 O 201) (comment + asciitilde -> afii10052)
-   (STOP)
-   (LABEL O 263) (comment і)
-   (LIG O 62 O 112) (comment + чяжесь -> J)
-   (LIG O 66 O 207) (comment + возгласъ -> daggerdbl)
-   (LIG O 176 O 152) (comment + asciitilde -> j)
-   (LIG O 67 O 213) (comment + титло -> guilsinglleft)
-   (LIG O 63 O 277) (comment + тончица -> afii10104)
-   (STOP)
-   (LABEL O 277) (comment afii10104)
-   (LIG O 176 O 274) (comment + asciitilde -> afii10105)
-   (STOP)
-   (LABEL O 300) (comment АЗЪ)
-   (LIG O 63 O 245) (comment + тончица -> afii10050)
+   (LIG O 5 O 22) (comment +  -> )
    (STOP)
    (LABEL O 316) (comment ОНЪ)
-   (LIG O 55 O 15) (comment + hyphen -> )
+   (LIG O 0 O 3) (comment +  -> )
    (STOP)
-   (LABEL O 337) (comment Ꙗзъ)
-   (LIG O 63 O 113) (comment + тончица -> K)
-   (STOP)
-   (LABEL O 344) (comment добро)
-   (LIG O 10 O 11) (comment +  -> )
-   (STOP)
-   (LABEL O 346) (comment живете)
-   (LIG O 67 O 71) (comment + титло -> nine)
-   (STOP)
-   (LABEL O 350) (comment иже)
-   (LIG O 67 O 175) (comment + титло -> braceright)
-   (STOP)
-   (LABEL O 353) (comment лѵдіѥ)
-   (LIG O 10 O 12) (comment +  -> )
-   (STOP)
-   (LABEL O 360) (comment рцы)
-   (LIG O 67 O 122) (comment + титло -> R)
-   (STOP)
-   (LABEL O 362) (comment твердо)
-   (LIG O 67 O 231) (comment + титло -> trademark)
-   (STOP)
-   (LABEL O 363) (comment онѵкъ)
-   (LIG O 176 O 171) (comment + asciitilde -> y)
-   (LIG O 62 O 131) (comment + чяжесь -> Y)
-   (LIG O 66 O 173) (comment + возгласъ -> braceleft)
-   (STOP)
-   (LABEL O 375) (comment ѣдь)
-   (LIG O 66 O 102) (comment + возгласъ -> B)
-   (STOP)
-   (LABEL O 377) (comment ꙗзъ)
-   (LIG O 63 O 153) (comment + тончица -> k)
+   (LABEL O 356) (comment онъ)
+   (LIG O 0 O 17) (comment +  -> )
    (STOP)
    )
 (CHARACTER O 0
    (CHARWD R 0)
-   (MAP
-      (SETCHAR O 74)
-      )
-   (comment _)
+   (comment )
    )
 (CHARACTER O 1
    (CHARWD R 0)
-   (comment _,)
+   (MAP
+      (SETCHAR O 1)
+      )
+   (comment ЕСТЬ_ШИРОКЪ[_е])
    )
 (CHARACTER O 2
    (CHARWD R 0)
-   (comment _,,)
+   (MAP
+      (SETCHAR O 2)
+      )
+   (comment ОНЪ_ШИРОКЪ[_О])
    )
 (CHARACTER O 3
    (CHARWD R 0)
-   (MAP
-      (SETCHAR O 76)
-      )
-   (comment _)
+   (comment )
    )
 (CHARACTER O 4
    (CHARWD R 0)
-   (comment _`)
+   (MAP
+      (SETCHAR O 4)
+      )
+   (comment ОНУКъ[О_у])
    )
 (CHARACTER O 5
    (CHARWD R 0)
-   (comment _``)
+   (comment )
    )
 (CHARACTER O 6
    (CHARWD R 0)
-   (comment _')
+   (comment )
    )
 (CHARACTER O 7
    (CHARWD R 0)
-   (comment _'')
+   (MAP
+      (SETCHAR O 7)
+      )
+   (comment ѾЪ[W\т])
    )
 (CHARACTER O 10
    (CHARWD R 0)
-   (MAP
-      (SETCHAR O 134)
-      )
-   (comment \)
+   (comment )
    )
 (CHARACTER O 11
    (CHARWD R 0)
-   (comment д\)
+   (MAP
+      (SETCHAR O 11)
+      )
+   (comment Ꙗзъ[Jа])
    )
 (CHARACTER O 12
    (CHARWD R 0)
-   (comment л\)
+   (comment )
    )
 (CHARACTER O 13
    (CHARWD R 0)
    (MAP
-      (SETCHAR O 42)
+      (SETCHAR O 13)
       )
-   (comment ")
+   (comment ѮИ[_КС])
    )
 (CHARACTER O 14
    (CHARWD R 0)
-   (comment W\)
+   (comment )
    )
 (CHARACTER O 15
    (CHARWD R 0)
-   (comment О_)
+   (MAP
+      (SETCHAR O 15)
+      )
+   (comment ѰИ[_ПС])
    )
 (CHARACTER O 16
    (CHARWD R 0.215)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment _К)
+   (MAP
+      (SETCHAR O 16)
+      )
+   (comment онъ_широкъ[_о])
    )
 (CHARACTER O 17
    (CHARWD R 0.0)
-   (MAP
-      (SETCHAR O 112)
-      )
-   (comment J)
+   (comment )
    )
 (CHARACTER O 20
    (CHARWD R 0.0)
    (MAP
-      (SETCHAR O 152)
+      (SETCHAR O 20)
       )
-   (comment j)
+   (comment онукъ[о_у])
    )
 (CHARACTER O 21
    (CHARWD R 0.0)
-   (comment w\)
+   (MAP
+      (SETCHAR O 21)
+      )
+   (comment укъ[_у])
    )
 (CHARACTER O 22
    (CHARWD R 0.0)
-   (comment _к)
+   (comment )
    )
 (CHARACTER O 23
    (CHARWD R 0.333)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
-   (comment _П)
+   (MAP
+      (SETCHAR O 23)
+      )
+   (comment ѿъ[w\т])
    )
 (CHARACTER O 24
    (CHARWD R 1.019)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
-   (comment О_у=)
+   (comment )
    )
 (CHARACTER O 25
    (CHARWD R 0.739)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
    (MAP
-      (SETCHAR O 55)
+      (SETCHAR O 25)
       )
-   (comment -)
+   (comment ꙗзъ[jа])
    )
 (CHARACTER O 26
    (CHARWD R 0.613)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
-   (comment _-)
+   (MAP
+      (SETCHAR O 26)
+      )
+   (comment ѡмега_широка[_w])
    )
 (CHARACTER O 27
    (CHARWD R 0.58)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
-   (comment _п)
+   (comment )
    )
 (CHARACTER O 30
    (CHARWD R 0.806)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
-   (comment __)
+   (MAP
+      (SETCHAR O 30)
+      )
+   (comment ѯи[_кс])
    )
 (CHARACTER O 31
    (CHARWD R 0.613)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
-   (comment ___)
+   (comment )
    )
 (CHARACTER O 32
    (CHARWD R 0.58)
    (CHARHT R 0.88)
    (CHARDP R 0.3)
-   (comment _.)
+   (MAP
+      (SETCHAR O 32)
+      )
+   (comment ѱи[_пс])
+   )
+(CHARACTER O 33
+   (CHARWD R 0.58)
+   (CHARHT R 0.88)
+   (CHARDP R 0.3)
+   (MAP
+      (SETCHAR O 33)
+      )
+   (comment взмѣтнъ_вѣдѣ[\в])
+   )
+(CHARACTER O 34
+   (CHARWD R 0.613)
+   (CHARHT R 0.88)
+   (CHARDP R 0.3)
+   (MAP
+      (SETCHAR O 34)
+      )
+   (comment взмѣтнъ_глаголи[\г])
+   )
+(CHARACTER O 35
+   (CHARWD R 0.58)
+   (CHARHT R 0.88)
+   (CHARDP R 0.3)
+   (MAP
+      (SETCHAR O 35)
+      )
+   (comment взмѣтно_добро[\д])
+   )
+(CHARACTER O 36
+   (CHARWD R 0.58)
+   (CHARHT R 0.88)
+   (CHARDP R 0.3)
+   (MAP
+      (SETCHAR O 36)
+      )
+   (comment взмѣтно_живете[\ж])
+   )
+(CHARACTER O 37
+   (CHARWD R 0.58)
+   (CHARHT R 0.88)
+   (CHARDP R 0.3)
+   (MAP
+      (SETCHAR O 37)
+      )
+   (comment взмѣтна_земля[\з])
    )
 (CHARACTER O 40
    (CHARWD R 0.0)
    (MAP
       (SETCHAR O 40)
       )
-   (comment пробѣлъ)
+   (comment пробѣлъ[ ])
    )
 (CHARACTER O 41
    (CHARWD R 0.197)
@@ -383,7 +356,62 @@
    (MAP
       (SETCHAR O 41)
       )
-   (comment воскликъ)
+   (comment воскликъ[!])
+   )
+(CHARACTER O 42
+   (CHARWD R 0.393)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (CHARIC R 0.01)
+   (MAP
+      (SETCHAR O 42)
+      )
+   (comment взмѣтнъ_нашъ[\н])
+   )
+(CHARACTER O 43
+   (CHARWD R 0.001)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 43)
+      )
+   (comment тысячник[#])
+   )
+(CHARACTER O 44
+   (CHARWD R 0.001)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 44)
+      )
+   (comment густецо[$])
+   )
+(CHARACTER O 45
+   (CHARWD R 0.001)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 45)
+      )
+   (comment взмѣтнъ_онъ[\о])
+   )
+(CHARACTER O 46
+   (CHARWD R 0.001)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 46)
+      )
+   (comment взмѣтно_рци[\р])
+   )
+(CHARACTER O 47
+   (CHARWD R 0.001)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 47)
+      )
+   (comment острецо['])
    )
 (CHARACTER O 50
    (CHARWD R 0.294)
@@ -393,7 +421,7 @@
    (MAP
       (SETCHAR O 50)
       )
-   (comment скобица_лева)
+   (comment дужка_лева[_])
    )
 (CHARACTER O 51
    (CHARWD R 0.287)
@@ -402,7 +430,7 @@
    (MAP
       (SETCHAR O 51)
       )
-   (comment скобица_права)
+   (comment дужка_права[_])
    )
 (CHARACTER O 52
    (CHARWD R 0.387)
@@ -411,14 +439,17 @@
    (MAP
       (SETCHAR O 52)
       )
-   (comment asterisk)
+   (comment ѕвѣздица[*])
    )
 (CHARACTER O 53
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.123)
-   (comment plus)
+   (MAP
+      (SETCHAR O 53)
+      )
+   (comment взмѣтно_слово[\с])
    )
 (CHARACTER O 54
    (CHARWD R 0.235)
@@ -427,16 +458,16 @@
    (MAP
       (SETCHAR O 54)
       )
-   (comment запята)
+   (comment запята[,])
    )
 (CHARACTER O 55
    (CHARWD R 0.34)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (MAP
-      (SETCHAR O 137)
+      (SETCHAR O 55)
       )
-   (comment hyphen)
+   (comment взмѣтнъ_хѣръ[\х])
    )
 (CHARACTER O 56
    (CHARWD R 0.176)
@@ -445,7 +476,7 @@
    (MAP
       (SETCHAR O 56)
       )
-   (comment точка)
+   (comment тъчка[.])
    )
 (CHARACTER O 57
    (CHARWD R 0.405)
@@ -455,64 +486,82 @@
    (MAP
       (SETCHAR O 57)
       )
-   (comment черта)
+   (comment черта[/])
+   )
+(CHARACTER O 60
+   (CHARWD R 0.475)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 60)
+      )
+   (comment взмѣтнъ_червь[\ч])
+   )
+(CHARACTER O 61
+   (CHARWD R 0.254)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 61)
+      )
+   (comment взмѣтнъ_ъръ[\ъ])
    )
 (CHARACTER O 62
    (CHARWD R 0.448)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.085)
-   (MAP
-      (SETCHAR O 140)
-      )
-   (comment чяжесь)
+   (comment )
    )
 (CHARACTER O 63
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.071)
-   (MAP
-      (SETCHAR O 75)
-      )
-   (comment тончица)
+   (comment )
    )
 (CHARACTER O 64
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment four)
+   (comment )
    )
 (CHARACTER O 65
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.003)
-   (comment five)
+   (MAP
+      (SETCHAR O 65)
+      )
+   (comment бодъка[_._])
    )
 (CHARACTER O 66
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (MAP
-      (SETCHAR O 136)
-      )
-   (comment возгласъ)
+   (comment )
    )
 (CHARACTER O 67
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
+   (comment )
+   )
+(CHARACTER O 70
+   (CHARWD R 0.001)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
    (MAP
-      (SETCHAR O 176)
+      (SETCHAR O 70)
       )
-   (comment титло)
+   (comment отчертјє[_-_])
    )
 (CHARACTER O 71
    (CHARWD R 0.684)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment nine)
+   (comment )
    )
 (CHARACTER O 72
    (CHARWD R 0.164)
@@ -521,7 +570,7 @@
    (MAP
       (SETCHAR O 72)
       )
-   (comment двоеточие)
+   (comment двоетъчие[:])
    )
 (CHARACTER O 73
    (CHARWD R 0.235)
@@ -530,47 +579,89 @@
    (MAP
       (SETCHAR O 73)
       )
-   (comment точка_запятна)
+   (comment тъчка_запятна[;])
    )
 (CHARACTER O 74
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.028)
-   (comment less)
+   (MAP
+      (SETCHAR O 74)
+      )
+   (comment кавычка_нижня[_,_])
    )
 (CHARACTER O 75
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment equal)
+   (MAP
+      (SETCHAR O 75)
+      )
+   (comment тончецо[=])
    )
 (CHARACTER O 76
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.143)
-   (comment greater)
+   (comment )
    )
 (CHARACTER O 77
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.168)
-   (comment question)
+   (MAP
+      (SETCHAR O 77)
+      )
+   (comment кавычка_лева[_`_])
+   )
+(CHARACTER O 100
+   (CHARWD R 0.001)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (MAP
+      (SETCHAR O 100)
+      )
+   (comment кавыка[@])
+   )
+(CHARACTER O 101
+   (CHARWD R 0.554)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (comment )
    )
 (CHARACTER O 102
    (CHARWD R 0.523)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment B)
+   (MAP
+      (SETCHAR O 102)
+      )
+   (comment кавычка_права[_'_])
+   )
+(CHARACTER O 103
+   (CHARWD R 0.55)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (comment )
    )
 (CHARACTER O 104
    (CHARWD R 0.402)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (CHARIC R 0.103)
-   (comment D)
+   (MAP
+      (SETCHAR O 104)
+      )
+   (comment кавычка_сдвоена_нижня[_,,_])
+   )
+(CHARACTER O 105
+   (CHARWD R 0.613)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (comment )
    )
 (CHARACTER O 106
    (CHARWD R 0.813)
@@ -579,7 +670,23 @@
    (MAP
       (SETCHAR O 106)
       )
-   (comment ѲИТА)
+   (comment ѲИТА[F])
+   )
+(CHARACTER O 107
+   (CHARWD R 0.389)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (CHARIC R 0.001)
+   (MAP
+      (SETCHAR O 107)
+      )
+   (comment кавычка_сдвоена_лева[_``_])
+   )
+(CHARACTER O 110
+   (CHARWD R 0.58)
+   (CHARHT R 0.88)
+   (CHARDP R 0.2)
+   (comment )
    )
 (CHARACTER O 111
    (CHARWD R 0.255)
@@ -588,75 +695,25 @@
    (MAP
       (SETCHAR O 111)
       )
-   (comment І)
+   (comment І[I])
    )
 (CHARACTER O 112
    (CHARWD R 0.215)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment J)
+   (MAP
+      (SETCHAR O 112)
+      )
+   (comment кавычка_сдвоена_права[_''_])
    )
-(CHARACTER O 113
-   (CHARWD R 0.587)
+(CHARACTER O 123
+   (CHARWD R 0.677)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment K)
-   )
-(CHARACTER O 114
-   (CHARWD R 0.426)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.047)
-   (comment L)
-   )
-(CHARACTER O 115
-   (CHARWD R 0.56)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment M)
-   )
-(CHARACTER O 116
-   (CHARWD R 0.846)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment N)
-   )
-(CHARACTER O 117
-   (CHARWD R 0.53)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment ОНЪ_ШИРОКЪ)
-   )
-(CHARACTER O 120
-   (CHARWD R 0.607)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment ѰИ)
-   )
-(CHARACTER O 121
-   (CHARWD R 0.874)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment Q)
-   )
-(CHARACTER O 122
-   (CHARWD R 0.314)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.038)
-   (comment R)
-   )
-(CHARACTER O 124
-   (CHARWD R 0.929)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment ѾЪ)
-   )
-(CHARACTER O 125
-   (CHARWD R 1.019)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment ОНѴКъ)
+   (MAP
+      (SETCHAR O 123)
+      )
+   (comment ЅѢЛѠ[S])
    )
 (CHARACTER O 126
    (CHARWD R 0.56)
@@ -665,7 +722,7 @@
    (MAP
       (SETCHAR O 126)
       )
-   (comment ѴЖИЦА)
+   (comment ѴЖИЦА[V])
    )
 (CHARACTER O 127
    (CHARWD R 0.806)
@@ -674,64 +731,25 @@
    (MAP
       (SETCHAR O 127)
       )
-   (comment ѠМЕГА)
+   (comment ѠМЕГА[W])
    )
-(CHARACTER O 130
-   (CHARWD R 0.683)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.021)
-   (comment ѮИ)
-   )
-(CHARACTER O 131
-   (CHARWD R 0.448)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.085)
-   (comment Y)
-   )
-(CHARACTER O 132
-   (CHARWD R 0.832)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (MAP
-      (SETCHAR O 337)
-      )
-   (comment ЮСЪ_МАЛЪ)
-   )
-(CHARACTER O 137
+(CHARACTER O 136
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment underscore)
+   (MAP
+      (SETCHAR O 136)
+      )
+   (comment возгласъ[^])
    )
 (CHARACTER O 140
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (MAP
-      (SETCHAR O 44)
+      (SETCHAR O 140)
       )
-   (comment густецо)
-   )
-(CHARACTER O 142
-   (CHARWD R 0.001)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.27)
-   (comment b)
-   )
-(CHARACTER O 143
-   (CHARWD R 0.286)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment c)
-   )
-(CHARACTER O 144
-   (CHARWD R 0.001)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment d)
+   (comment чяжесь[`])
    )
 (CHARACTER O 146
    (CHARWD R 0.734)
@@ -740,69 +758,25 @@
    (MAP
       (SETCHAR O 146)
       )
-   (comment ѳита)
-   )
-(CHARACTER O 147
-   (CHARWD R 0.001)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.171)
-   (comment g)
+   (comment ѳита[f])
    )
 (CHARACTER O 151
    (CHARWD R 0.251)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment i)
+   (MAP
+      (SETCHAR O 151)
+      )
+   (comment і[i])
    )
-(CHARACTER O 152
-   (CHARWD R 0.215)
+(CHARACTER O 163
+   (CHARWD R 0.555)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (CHARIC R 0.085)
-   (comment j)
-   )
-(CHARACTER O 153
-   (CHARWD R 0.62)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment k)
-   )
-(CHARACTER O 155
-   (CHARWD R 0.494)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment m)
-   )
-(CHARACTER O 156
-   (CHARWD R 0.74)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment n)
-   )
-(CHARACTER O 157
-   (CHARWD R 0.475)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment онъ_широкъ)
-   )
-(CHARACTER O 160
-   (CHARWD R 0.314)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment ѱи)
-   )
-(CHARACTER O 161
-   (CHARWD R 0.756)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment ѡмега_широка)
-   )
-(CHARACTER O 164
-   (CHARWD R 0.705)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment ѿъ)
+   (MAP
+      (SETCHAR O 163)
+      )
+   (comment ѕѣлѡ[s])
    )
 (CHARACTER O 166
    (CHARWD R 0.494)
@@ -811,7 +785,7 @@
    (MAP
       (SETCHAR O 166)
       )
-   (comment ѵжица)
+   (comment ѵжица[v])
    )
 (CHARACTER O 167
    (CHARWD R 0.705)
@@ -820,272 +794,16 @@
    (MAP
       (SETCHAR O 167)
       )
-   (comment ѡмега)
-   )
-(CHARACTER O 170
-   (CHARWD R 0.443)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment ѯи)
-   )
-(CHARACTER O 171
-   (CHARWD R 0.448)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.085)
-   (comment y)
-   )
-(CHARACTER O 172
-   (CHARWD R 0.62)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (MAP
-      (SETCHAR O 377)
-      )
-   (comment юсъ_малъ)
-   )
-(CHARACTER O 173
-   (CHARWD R 0.448)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.085)
-   (comment braceleft)
-   )
-(CHARACTER O 175
-   (CHARWD R 0.446)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment braceright)
+   (comment ѡмега[w])
    )
 (CHARACTER O 176
    (CHARWD R 0.001)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (MAP
-      (SETCHAR O 47)
+      (SETCHAR O 176)
       )
-   (comment asciitilde)
-   )
-(CHARACTER O 201
-   (CHARWD R 0.554)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.028)
-   (comment afii10052)
-   )
-(CHARACTER O 202
-   (CHARWD R 0.705)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment quotesinglebase)
-   )
-(CHARACTER O 204
-   (CHARWD R 0.001)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.08)
-   (comment quotedblbase)
-   )
-(CHARACTER O 205
-   (CHARWD R 0.443)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment ellipsis)
-   )
-(CHARACTER O 207
-   (CHARWD R 0.215)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.048)
-   (comment daggerdbl)
-   )
-(CHARACTER O 210
-   (CHARWD R 0.215)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.085)
-   (comment Euro)
-   )
-(CHARACTER O 212
-   (CHARWD R 0.844)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment afii10058)
-   )
-(CHARACTER O 213
-   (CHARWD R 0.215)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.09)
-   (comment guilsinglleft)
-   )
-(CHARACTER O 214
-   (CHARWD R 0.806)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment afii10059)
-   )
-(CHARACTER O 215
-   (CHARWD R 1.019)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment afii10061)
-   )
-(CHARACTER O 216
-   (CHARWD R 0.832)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment afii10060)
-   )
-(CHARACTER O 217
-   (CHARWD R 0.846)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment afii10145)
-   )
-(CHARACTER O 221
-   (CHARWD R 0.832)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment quoteleft)
-   )
-(CHARACTER O 222
-   (CHARWD R 0.322)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment quoteright)
-   )
-(CHARACTER O 223
-   (CHARWD R 0.373)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment quotedblleft)
-   )
-(CHARACTER O 224
-   (CHARWD R 0.617)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment quotedblright)
-   )
-(CHARACTER O 225
-   (CHARWD R 0.001)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.013)
-   (comment bullet)
-   )
-(CHARACTER O 226
-   (CHARWD R 0.481)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment endash)
-   )
-(CHARACTER O 231
-   (CHARWD R 0.615)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment trademark)
-   )
-(CHARACTER O 244
-   (CHARWD R 0.224)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (MAP
-      (SETCHAR O 43)
-      )
-   (comment тысячник)
-   )
-(CHARACTER O 245
-   (CHARWD R 0.554)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment afii10050)
-   )
-(CHARACTER O 253
-   (CHARWD R 0.48)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment guillemotleft)
-   )
-(CHARACTER O 257
-   (CHARWD R 0.255)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment afii10056)
-   )
-(CHARACTER O 260
-   (CHARWD R 0.334)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (MAP
-      (SETCHAR O 100)
-      )
-   (comment кавыка)
-   )
-(CHARACTER O 262
-   (CHARWD R 0.255)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment afii10055)
-   )
-(CHARACTER O 263
-   (CHARWD R 0.225)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (MAP
-      (SETCHAR O 151)
-      )
-   (comment і)
-   )
-(CHARACTER O 265
-   (CHARWD R 0.498)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment укъ)
-   )
-(CHARACTER O 267
-   (CHARWD R 0.001)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.19)
-   (comment periodcentered)
-   )
-(CHARACTER O 272
-   (CHARWD R 0.602)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment ЕСТЬ_ШИРОКЪ)
-   )
-(CHARACTER O 274
-   (CHARWD R 0.215)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (CHARIC R 0.079)
-   (comment afii10105)
-   )
-(CHARACTER O 275
-   (CHARWD R 0.61)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (MAP
-      (SETCHAR O 123)
-      )
-   (comment ЅѢЛѠ)
-   )
-(CHARACTER O 276
-   (CHARWD R 0.61)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (MAP
-      (SETCHAR O 163)
-      )
-   (comment ѕѣлѡ)
-   )
-(CHARACTER O 277
-   (CHARWD R 0.215)
-   (CHARHT R 0.88)
-   (CHARDP R 0.2)
-   (comment afii10104)
+   (comment титло[~])
    )
 (CHARACTER O 300
    (CHARWD R 0.554)
@@ -1094,7 +812,7 @@
    (MAP
       (SETCHAR O 300)
       )
-   (comment АЗЪ)
+   (comment АЗЪ[А])
    )
 (CHARACTER O 301
    (CHARWD R 0.523)
@@ -1103,7 +821,7 @@
    (MAP
       (SETCHAR O 301)
       )
-   (comment БУКЫ)
+   (comment БУКЫ[Б])
    )
 (CHARACTER O 302
    (CHARWD R 0.523)
@@ -1112,7 +830,7 @@
    (MAP
       (SETCHAR O 302)
       )
-   (comment ВѢДѢ)
+   (comment ВѢДѢ[В])
    )
 (CHARACTER O 303
    (CHARWD R 0.401)
@@ -1122,7 +840,7 @@
    (MAP
       (SETCHAR O 303)
       )
-   (comment ГЛАГОЛИ)
+   (comment ГЛАГОЛИ[Г])
    )
 (CHARACTER O 304
    (CHARWD R 0.612)
@@ -1131,7 +849,7 @@
    (MAP
       (SETCHAR O 304)
       )
-   (comment ДОБРО)
+   (comment ДОБРО[Д])
    )
 (CHARACTER O 305
    (CHARWD R 0.613)
@@ -1140,7 +858,7 @@
    (MAP
       (SETCHAR O 305)
       )
-   (comment ЕСТЬ)
+   (comment ЕСТЬ[Е])
    )
 (CHARACTER O 306
    (CHARWD R 0.848)
@@ -1149,7 +867,7 @@
    (MAP
       (SETCHAR O 306)
       )
-   (comment ЖИВЕТЕ)
+   (comment ЖИВЕТЕ[Ж])
    )
 (CHARACTER O 307
    (CHARWD R 0.75)
@@ -1158,7 +876,7 @@
    (MAP
       (SETCHAR O 307)
       )
-   (comment ЗЕМЛѦ)
+   (comment ЗЕМЛѦ[З])
    )
 (CHARACTER O 310
    (CHARWD R 0.58)
@@ -1167,7 +885,7 @@
    (MAP
       (SETCHAR O 310)
       )
-   (comment ИЖЕ)
+   (comment ИЖЕ[И])
    )
 (CHARACTER O 311
    (CHARWD R 0.58)
@@ -1176,61 +894,61 @@
    (MAP
       (SETCHAR O 311)
       )
-   (comment Й)
+   (comment Й[Й])
    )
 (CHARACTER O 312
    (CHARWD R 0.587)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (MAP
-      (SETCHAR O 311)
+      (SETCHAR O 312)
       )
-   (comment КАКО)
+   (comment КАКО[К])
    )
 (CHARACTER O 313
    (CHARWD R 0.603)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (MAP
-      (SETCHAR O 311)
+      (SETCHAR O 313)
       )
-   (comment ЛѴДІѤ)
+   (comment ЛѴДІѤ[Л])
    )
 (CHARACTER O 314
    (CHARWD R 0.871)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (MAP
-      (SETCHAR O 311)
+      (SETCHAR O 314)
       )
-   (comment МЫСЛѢТЕ)
+   (comment МЫСЛѢТЕ[М])
    )
 (CHARACTER O 315
    (CHARWD R 0.58)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (MAP
-      (SETCHAR O 311)
+      (SETCHAR O 315)
       )
-   (comment НАШЪ)
+   (comment НАШЪ[Н])
    )
 (CHARACTER O 316
    (CHARWD R 0.53)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (MAP
-      (SETCHAR O 311)
+      (SETCHAR O 316)
       )
-   (comment ОНЪ)
+   (comment ОНЪ[О])
    )
 (CHARACTER O 317
    (CHARWD R 0.58)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
    (MAP
-      (SETCHAR O 311)
+      (SETCHAR O 317)
       )
-   (comment ПОКОЙ)
+   (comment ПОКОЙ[П])
    )
 (CHARACTER O 320
    (CHARWD R 0.607)
@@ -1239,7 +957,7 @@
    (MAP
       (SETCHAR O 320)
       )
-   (comment РЦЫ)
+   (comment РЦЫ[Р])
    )
 (CHARACTER O 321
    (CHARWD R 0.55)
@@ -1248,7 +966,7 @@
    (MAP
       (SETCHAR O 321)
       )
-   (comment СЛОВО)
+   (comment СЛОВО[С])
    )
 (CHARACTER O 322
    (CHARWD R 0.698)
@@ -1257,7 +975,7 @@
    (MAP
       (SETCHAR O 322)
       )
-   (comment ТВЕРДО)
+   (comment ТВЕРДО[Т])
    )
 (CHARACTER O 323
    (CHARWD R 0.615)
@@ -1266,7 +984,7 @@
    (MAP
       (SETCHAR O 323)
       )
-   (comment ОНѴКЪ)
+   (comment ОНѴКЪ[У])
    )
 (CHARACTER O 324
    (CHARWD R 0.774)
@@ -1275,7 +993,7 @@
    (MAP
       (SETCHAR O 324)
       )
-   (comment ФЕРТЪ)
+   (comment ФЕРТЪ[Ф])
    )
 (CHARACTER O 325
    (CHARWD R 0.643)
@@ -1284,7 +1002,7 @@
    (MAP
       (SETCHAR O 325)
       )
-   (comment ХѢРЪ)
+   (comment ХѢРЪ[Х])
    )
 (CHARACTER O 326
    (CHARWD R 0.599)
@@ -1293,7 +1011,7 @@
    (MAP
       (SETCHAR O 326)
       )
-   (comment ЦЫ)
+   (comment ЦЫ[Ц])
    )
 (CHARACTER O 327
    (CHARWD R 0.581)
@@ -1302,7 +1020,7 @@
    (MAP
       (SETCHAR O 327)
       )
-   (comment ЧЕРВЬ)
+   (comment ЧЕРВЬ[Ч])
    )
 (CHARACTER O 330
    (CHARWD R 0.87)
@@ -1311,7 +1029,7 @@
    (MAP
       (SETCHAR O 330)
       )
-   (comment ША)
+   (comment ША[Ш])
    )
 (CHARACTER O 331
    (CHARWD R 0.87)
@@ -1320,7 +1038,7 @@
    (MAP
       (SETCHAR O 331)
       )
-   (comment ЩА)
+   (comment ЩА[Щ])
    )
 (CHARACTER O 332
    (CHARWD R 0.603)
@@ -1329,7 +1047,7 @@
    (MAP
       (SETCHAR O 332)
       )
-   (comment ѤРЪ)
+   (comment ѤРЪ[Ъ])
    )
 (CHARACTER O 333
    (CHARWD R 0.779)
@@ -1338,7 +1056,7 @@
    (MAP
       (SETCHAR O 333)
       )
-   (comment ѤРЫ)
+   (comment ѤРЫ[Ы])
    )
 (CHARACTER O 334
    (CHARWD R 0.524)
@@ -1347,13 +1065,16 @@
    (MAP
       (SETCHAR O 334)
       )
-   (comment ѤРЬ)
+   (comment ѤРЬ[Ь])
    )
 (CHARACTER O 335
    (CHARWD R 0.706)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment ѢДЬ)
+   (MAP
+      (SETCHAR O 335)
+      )
+   (comment ѢДЬ[Jь])
    )
 (CHARACTER O 336
    (CHARWD R 0.782)
@@ -1362,13 +1083,16 @@
    (MAP
       (SETCHAR O 336)
       )
-   (comment ЮСЪ)
+   (comment ЮСЪ[Ю])
    )
 (CHARACTER O 337
    (CHARWD R 0.844)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment Ꙗзъ)
+   (MAP
+      (SETCHAR O 337)
+      )
+   (comment ЮСЪ_МАЛЪ[Я])
    )
 (CHARACTER O 340
    (CHARWD R 0.383)
@@ -1377,7 +1101,7 @@
    (MAP
       (SETCHAR O 340)
       )
-   (comment азъ)
+   (comment азъ[а])
    )
 (CHARACTER O 341
    (CHARWD R 0.434)
@@ -1386,7 +1110,7 @@
    (MAP
       (SETCHAR O 341)
       )
-   (comment букы)
+   (comment букы[б])
    )
 (CHARACTER O 342
    (CHARWD R 0.464)
@@ -1395,7 +1119,7 @@
    (MAP
       (SETCHAR O 342)
       )
-   (comment вѣдѣ)
+   (comment вѣдѣ[в])
    )
 (CHARACTER O 343
    (CHARWD R 0.389)
@@ -1404,7 +1128,7 @@
    (MAP
       (SETCHAR O 343)
       )
-   (comment глаголи)
+   (comment глаголи[г])
    )
 (CHARACTER O 344
    (CHARWD R 0.402)
@@ -1413,7 +1137,7 @@
    (MAP
       (SETCHAR O 344)
       )
-   (comment добро)
+   (comment добро[д])
    )
 (CHARACTER O 345
    (CHARWD R 0.322)
@@ -1422,7 +1146,7 @@
    (MAP
       (SETCHAR O 345)
       )
-   (comment есть)
+   (comment есть[е])
    )
 (CHARACTER O 346
    (CHARWD R 0.684)
@@ -1431,7 +1155,7 @@
    (MAP
       (SETCHAR O 346)
       )
-   (comment живете)
+   (comment живете[ж])
    )
 (CHARACTER O 347
    (CHARWD R 0.57)
@@ -1440,7 +1164,7 @@
    (MAP
       (SETCHAR O 347)
       )
-   (comment землѧ)
+   (comment землѧ[з])
    )
 (CHARACTER O 350
    (CHARWD R 0.446)
@@ -1449,7 +1173,7 @@
    (MAP
       (SETCHAR O 350)
       )
-   (comment иже)
+   (comment иже[и])
    )
 (CHARACTER O 351
    (CHARWD R 0.446)
@@ -1458,7 +1182,7 @@
    (MAP
       (SETCHAR O 351)
       )
-   (comment й)
+   (comment й[й])
    )
 (CHARACTER O 352
    (CHARWD R 0.499)
@@ -1467,7 +1191,7 @@
    (MAP
       (SETCHAR O 352)
       )
-   (comment како)
+   (comment како[к])
    )
 (CHARACTER O 353
    (CHARWD R 0.426)
@@ -1476,7 +1200,7 @@
    (MAP
       (SETCHAR O 353)
       )
-   (comment лѵдіѥ)
+   (comment лѵдіѥ[л])
    )
 (CHARACTER O 354
    (CHARWD R 0.69)
@@ -1485,7 +1209,7 @@
    (MAP
       (SETCHAR O 354)
       )
-   (comment мыслѣте)
+   (comment мыслѣте[м])
    )
 (CHARACTER O 355
    (CHARWD R 0.457)
@@ -1494,7 +1218,7 @@
    (MAP
       (SETCHAR O 355)
       )
-   (comment нашъ)
+   (comment нашъ[н])
    )
 (CHARACTER O 356
    (CHARWD R 0.475)
@@ -1503,7 +1227,7 @@
    (MAP
       (SETCHAR O 356)
       )
-   (comment онъ)
+   (comment онъ[о])
    )
 (CHARACTER O 357
    (CHARWD R 0.462)
@@ -1512,7 +1236,7 @@
    (MAP
       (SETCHAR O 357)
       )
-   (comment покой)
+   (comment покой[п])
    )
 (CHARACTER O 360
    (CHARWD R 0.314)
@@ -1521,7 +1245,7 @@
    (MAP
       (SETCHAR O 360)
       )
-   (comment рцы)
+   (comment рцы[р])
    )
 (CHARACTER O 361
    (CHARWD R 0.286)
@@ -1530,7 +1254,7 @@
    (MAP
       (SETCHAR O 361)
       )
-   (comment слово)
+   (comment слово[с])
    )
 (CHARACTER O 362
    (CHARWD R 0.615)
@@ -1539,7 +1263,7 @@
    (MAP
       (SETCHAR O 362)
       )
-   (comment твердо)
+   (comment твердо[т])
    )
 (CHARACTER O 363
    (CHARWD R 0.448)
@@ -1549,7 +1273,7 @@
    (MAP
       (SETCHAR O 363)
       )
-   (comment онѵкъ)
+   (comment онѵкъ[у])
    )
 (CHARACTER O 364
    (CHARWD R 0.69)
@@ -1558,7 +1282,7 @@
    (MAP
       (SETCHAR O 364)
       )
-   (comment фертъ)
+   (comment фертъ[ф])
    )
 (CHARACTER O 365
    (CHARWD R 0.443)
@@ -1567,7 +1291,7 @@
    (MAP
       (SETCHAR O 365)
       )
-   (comment хѣръ)
+   (comment хѣръ[х])
    )
 (CHARACTER O 366
    (CHARWD R 0.541)
@@ -1576,7 +1300,7 @@
    (MAP
       (SETCHAR O 366)
       )
-   (comment цы)
+   (comment цы[ц])
    )
 (CHARACTER O 367
    (CHARWD R 0.433)
@@ -1585,7 +1309,7 @@
    (MAP
       (SETCHAR O 367)
       )
-   (comment червь)
+   (comment червь[ч])
    )
 (CHARACTER O 370
    (CHARWD R 0.798)
@@ -1594,7 +1318,7 @@
    (MAP
       (SETCHAR O 370)
       )
-   (comment ша)
+   (comment ша[ш])
    )
 (CHARACTER O 371
    (CHARWD R 0.727)
@@ -1603,7 +1327,7 @@
    (MAP
       (SETCHAR O 371)
       )
-   (comment ща)
+   (comment ща[щ])
    )
 (CHARACTER O 372
    (CHARWD R 0.446)
@@ -1612,7 +1336,7 @@
    (MAP
       (SETCHAR O 372)
       )
-   (comment ѥръ)
+   (comment ѥръ[ъ])
    )
 (CHARACTER O 373
    (CHARWD R 0.672)
@@ -1621,7 +1345,7 @@
    (MAP
       (SETCHAR O 373)
       )
-   (comment ѥры)
+   (comment ѥры[ы])
    )
 (CHARACTER O 374
    (CHARWD R 0.48)
@@ -1630,13 +1354,16 @@
    (MAP
       (SETCHAR O 374)
       )
-   (comment ѥрь)
+   (comment ѥрь[ь])
    )
 (CHARACTER O 375
    (CHARWD R 0.617)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment ѣдь)
+   (MAP
+      (SETCHAR O 375)
+      )
+   (comment ѣдь[jь])
    )
 (CHARACTER O 376
    (CHARWD R 0.516)
@@ -1645,11 +1372,14 @@
    (MAP
       (SETCHAR O 376)
       )
-   (comment юсъ)
+   (comment юсъ[ю])
    )
 (CHARACTER O 377
    (CHARWD R 0.61)
    (CHARHT R 0.88)
    (CHARDP R 0.2)
-   (comment ꙗзъ)
+   (MAP
+      (SETCHAR O 377)
+      )
+   (comment юсъ_малъ[я])
    )
