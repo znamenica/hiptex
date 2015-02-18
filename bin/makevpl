@@ -13,12 +13,20 @@ class Object
 settings = YAML.load( IO.read( 'share/cp/hip.yml' ) )
 font_settings = YAML.load( IO.read( 'share/fonts/irmucsv.yml' ) )
 
-hips = Hash[ settings[ 'знаци' ].to_a.map do |c|
+hips = Hash[ (settings[ 'знаци' ] || {}).to_a.map do |c|
    hip = c[ 1 ][ 'hip' ]
    if !hip || font_settings[ 'пропускъ' ].include?( hip )
       next ; end
    c[ 1 ][ 'пути' ] = (hip.size - 1).times.to_a.map { |i| hip[0..i] }
    c[ 1 ] && [ hip, c ]
+   end.select{ |c| c && c[ 0 ] } ]
+
+hips.merge! Hash[ (settings[ 'сдвоицы' ] || []).map do |c|
+   hip = c[ 'hip' ]
+   if !hip || font_settings[ 'пропускъ' ].include?( hip )
+      next ; end
+   c[ 'пути' ] = (hip.size - 1).times.to_a.map { |i| hip[0..i] }
+   c && [ hip, [ nil, c ] ]
    end.select{ |c| c && c[ 0 ] } ]
 
 # ЧИНИ find dupes in hips
@@ -64,14 +72,14 @@ mode = nil
 labels = {}
 label = nil
 char = nil
-chars = {}
+ucs8chars = {}
 i = nil
 head = ''
 srcvpl.each_line do |l|
    if l =~ /LIGTABLE/
       mode = :ligtable
    elsif l =~ /CHARACTER (.) ([^)]+)/
-      chars[ i ] = char if mode == :character
+      ucs8chars[ i ] = char if mode == :character
       mode = :character
       char = {}
       i = ($1 == 'C') && $2.ord || $2.to_i(8)
@@ -91,43 +99,45 @@ srcvpl.each_line do |l|
       head << l ; end ; end
 
 if mode == :character
-   chars[ i ] = char ; end
+   ucs8chars[ i ] = char ; end
 
 # Update map 256 of UCS8 table
 #
 #
-ucs8map = {}
+texmap = {}
 hips.each do |hip, (_, d)|
    code = d[ 'tex' ]
    if !code && hip.size == 1
       code = hip.ord ; end
    if code
-      if ucs8map[ code ]
-         $stderr.puts "The place for hip #{hip} is already busy" ; next ; end
-      ucs8map[ code ] = hip ; end ; end
+      if texmap[ code ]
+         $stderr.puts "The place for hip #{hip} is already busy"
+         next ; end
+      texmap[ code ] = hip ; end ; end
 
 # and non-exist char with path to ligatures
 hips.each do |hip, (_, d)|
    ( d[ 'пути' ].dup << hip ).each do |path|
-      def validate_ucs8_char ucs8map, char
-         if ucs8map.key( char )
+      def validate_ucs8_char texmap, char
+         if texmap.key( char )
             return ; end
-         free_idx = ( (0..255).to_a - ucs8map.keys ).first
+         # NOTE first idx 14, idx below that are hide by tex?
+         free_idx = ( (14..255).to_a - texmap.keys ).first
          if !free_idx
             $stderr.puts "There are no free placeholders. Exiting..." ; exit(1) ; end
 
-         ucs8map[ free_idx ]= char ; end
+         texmap[ free_idx ]= char ; end
 
-      validate_ucs8_char ucs8map, path[-1]
-      validate_ucs8_char ucs8map, path ; end ; end
+      validate_ucs8_char texmap, path[-1]
+      validate_ucs8_char texmap, path ; end ; end
 
 # Update ligature table
 ligs = {}
 hips.each do |hip, (_, d)|
    ( d[ 'пути' ].dup << hip )[1..-1].each do |path|
-      char = ucs8map.key( path[-1] )
-      base = ucs8map.key( path[0..-2] )
-      to = ucs8map.key( path )
+      char = texmap.key( path[-1] )
+      base = texmap.key( path[0..-2] )
+      to = texmap.key( path )
       if !char
          $stderr.puts "Char '#{path[-1]}' has no placeholder for ligature '#{path}'" ; end
       if !to
@@ -146,35 +156,39 @@ File.open( 'texmf/fonts/vpl/hiptex/irmucsv.vpl', 'w' ) do |f|
    f.puts '(LIGTABLE'
    ligs.keys.sort.each do |lig|
       links = ligs[ lig ]
-      hip = hips[ ucs8map[ lig ] ]
+      hip = hips[ texmap[ lig ] ]
       f.puts "   (LABEL O #{lig.to_s(8)}) (comment #{hip && hip[ 0 ]})"
       links.each do |link|
-         hipc = link.map {|x| hips[ ucs8map[ x ] ] }
+         hipc = link.map {|x| hips[ texmap[ x ] ] }
          f.puts "   (LIG O #{link[0].to_s(8)} O #{link[1].to_s(8)})" \
                 " (comment + #{charname(hipc[0])} -> #{charname(hipc[1])})" ; end
       f.puts "   (STOP)" ; end
    f.puts '   )'
-   ucs8map.keys.sort.each do |code|
+   texmap.keys.sort.each do |code|
       f.puts "(CHARACTER O #{code.to_s(8)}"
 #      p code
 #      p chars[ code ]
-      if !chars[ code ].empty?
-         f.puts chars[ code ].to_a.map {|(k,v)| "   (#{k} R #{v})" }.join("\n")
+      ucs8code = hips[ texmap[ code ] ].try(:[], 1).try(:[], 'ucs8' )
+      if ucs8code && !ucs8chars[ ucs8code ].empty?
+         f.puts ucs8chars[ ucs8code ].to_a.map {|(k,v)| "   (#{k} R #{v})" }.join("\n")
       else
+         # NOTE setting WD to 0 makes the char overdrawn by the following one,
+         # so its WD should be derived from the previous for an intermediate
+         # ligature
          f.puts '   (CHARWD R 0)' ; end
 
-#      if ucs8map[ code ].size == 1
-      char = hips[ ucs8map[ code ] ]
-#         p "CODE #{ucs8map[ code ]}, ORD: #{ucs8map[ code ].ord}"
-#         ord = char && char[ 1 ][ 'tex' ] || ucs8map[ code ].ord
+#      if texmap[ code ].size == 1
+      char = hips[ texmap[ code ] ]
+#         p "CODE #{texmap[ code ]}, ORD: #{texmap[ code ].ord}"
+#         ord = char && char[ 1 ][ 'tex' ] || texmap[ code ].ord
 #         ord = char && char[ 1 ][ 'tex' ] || code
 #         if ord > 0xFF
-#            $stderr.puts "Char #{ucs8map[ code ]} has no defined tex value" ; end
+#            $stderr.puts "Char #{texmap[ code ]} has no defined tex value" ; end
       if char
          f.puts "   (MAP\n" \
                 "      (SETCHAR O #{code.to_s(8)})\n" \
                 "      )\n" ; end
-         comment = charname(hips[ ucs8map[ code ] ])
+         comment = charname(hips[ texmap[ code ] ])
          if comment
             f.puts "   (comment #{comment})" ; end
 #      p '-'*80
@@ -186,7 +200,7 @@ File.open( "texmf/dvips/base/#{enc_name}.enc", 'w' ) do |f|
    (0...32).each do |l|
       (0...8).each do |n|
          idx = l * 8 + n
-         adobe_name = hips[ ucs8map[ idx ] ].try(:[], 1 ).try(:[], 'adobe_name') || '.notdef'
+         adobe_name = hips[ texmap[ idx ] ].try(:[], 1 ).try(:[], 'adobe_name') || '.notdef'
          f.print " /#{adobe_name}" ; end
       f.puts "" ; end
    f.puts "] def" ; end

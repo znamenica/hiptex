@@ -604,6 +604,7 @@ aliases:
    подчертјє:
       adobe_name: hyphen
       newhip: '__'
+      hip: '_' # ЧИНИ премести в список вспомогатъ знаковъ
       ucs8: 0x2d
    отчертјє:
       adobe_name: endash
@@ -697,22 +698,25 @@ aliases:
       utf8: '+'
    палка:
       adobe_name: backslash
+      hip: '\' # ЧИНИ временно суть сие
       utf8: '\'
 сдвоицы:
  - adobe_name: four
    hip: "='"
    ucs8: 0x34
- - adobe_name: dollar
-   hip: "='"
-   preg: up
-   ucs8: 0x24
+   видъ:
+    - adobe_name: dollar
+      hip: "='"
+      preg: up
+      ucs8: 0x24
  - adobe_name: five
    hip: '=`'
    ucs8: 0x35
- - adobe_name: percent
-   hip: '=`'
-   preg: up
-   ucs8: 0x25
+   видъ:
+    - adobe_name: percent
+      hip: '=`'
+      preg: up
+      ucs8: 0x25
  - adobe_name: afii61352
    hip: 'а~'
    ucs8: 0xb9
