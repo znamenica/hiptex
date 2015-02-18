@@ -10,8 +10,8 @@ class Object
       else
          nil ; end ; end ; end
 
-settings = YAML.load( IO.read( 'share/cp/hip.yml' ) )
-font_settings = YAML.load( IO.read( 'share/fonts/irmucsv.yml' ) )
+settings = YAML.load( IO.read( 'hip.yml' ) )
+font_settings = YAML.load( IO.read( 'irmucsv.yml' ) )
 
 hips = Hash[ (settings[ 'знаци' ] || {}).to_a.map do |c|
    hip = c[ 1 ][ 'hip' ]
@@ -56,14 +56,14 @@ texfooter = <<TEX
 \\end{document}
 TEX
 
-File.open('hips.tex', 'w') do |f|
-   f.puts texheader + hips.keys.join(' ') + texfooter ; end
+#File.open('hips.tex', 'w') do |f|
+#   f.puts texheader + hips.keys.join(' ') + texfooter ; end
 
 # append .vpl LIG rules
 #
 # open .vpl
 
-srcvpl = IO.read 'texmf/fonts/vpl/hiptex/irmucsv.vpl.in'
+srcvpl = IO.read 'irmucsv.vpl.in'
 
 # grep KRN from LIGTABLE section
 #
@@ -151,7 +151,7 @@ hips.each do |hip, (_, d)|
 def charname char
    char && "#{char[ 0 ]}[#{char[ 1 ][ 'hip' ].gsub(/[\(\)<>]/,'_')}]" || "" ; end
 
-File.open( 'texmf/fonts/vpl/hiptex/irmucsv.vpl', 'w' ) do |f|
+File.open( 'irmucsv.vpl', 'w' ) do |f|
    f.puts head
    f.puts '(LIGTABLE'
    ligs.keys.sort.each do |lig|
@@ -195,7 +195,7 @@ File.open( 'texmf/fonts/vpl/hiptex/irmucsv.vpl', 'w' ) do |f|
       f.puts '   )' ; end ; end
 
 enc_name = 'ucs8'
-File.open( "texmf/dvips/base/#{enc_name}.enc", 'w' ) do |f|
+File.open( "#{enc_name}.enc", 'w' ) do |f|
    f.puts "/#{enc_name.upcase}Encoding ["
    (0...32).each do |l|
       (0...8).each do |n|
@@ -205,5 +205,5 @@ File.open( "texmf/dvips/base/#{enc_name}.enc", 'w' ) do |f|
       f.puts "" ; end
    f.puts "] def" ; end
 
-File.open( "texmf/dvips/config/hiptex.map", 'w' ) do |f|
+File.open( "hiptex.map", 'w' ) do |f|
    f.puts "irmucsv Irmologion-Ucs \"#{enc_name.upcase}Encoding\"" ; end

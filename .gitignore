@@ -5,3 +5,7 @@
 texmf/fonts/tfm/
 texmf/fonts/vf/
 .bundle
+src/*.vpl
+src/*.tfm
+src/*.map
+src/*.enc
