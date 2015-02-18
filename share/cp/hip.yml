@@ -700,6 +700,10 @@ aliases:
       adobe_name: backslash
       hip: '\' # ЧИНИ временно суть сие
       utf8: '\'
+   јота:
+      adobe_name: j
+      hip: 'j' # ЧИНИ временно суть сие
+      utf8: 'j'
 сдвоицы:
  - adobe_name: four
    hip: "='"
